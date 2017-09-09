@@ -1,0 +1,39 @@
+@mixin MQ($canvas)
+  @if $canvas == S
+    @media only screen and (min-width: $S)
+      @content
+  @else if $canvas == EXS
+    @media only screen and (min-width: $EXS)
+      @content
+  @else if $canvas == M
+    @media only screen and (min-width: $M)
+      @content
+  @else if $canvas == EXM
+    @media only screen and (min-width: $EXM)
+      @content
+  @else if $canvas == L
+    @media only screen and (min-width: $L)
+      @content
+  @else if $canvas == EXL
+    @media only screen and (min-width: $EXL)
+      @content
+  @else if $canvas == XL
+    @media only screen and (min-width: $XL)
+      @content
+
+=size($width,$height)
+  width: $width
+  height: $height
+
+=vertical
+  font-size: 0
+  text-align: center
+  .help
+    display: inline-block
+    vertical-align: middle
+  &:after
+    content: ""
+    display: inline-block
+    vertical-align: middle
+    @include size(.1%,100%)
+    margin-left: -.1%

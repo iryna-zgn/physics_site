@@ -1,0 +1,51 @@
+{
+  "name": "furia",
+  "version": "1.0.0",
+  "description": "furiacms ========",
+  "main": "index.js",
+  "author": "Wentris",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "jquery-ui": "^1.12.1",
+    "slick-carousel": "^1.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gitolite@78.47.42.169:defaultfuria"
+  },
+  "devDependencies": {
+    "assets-webpack-plugin": "^3.5.1",
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-plugin-syntax-decorators": "^6.13.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "bundle-loader": "^0.5.4",
+    "cross-env": "^3.1.4",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.14.1",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.10.0",
+    "node-sass": "^4.4.0",
+    "resolve-url-loader": "^1.6.1",
+    "rimraf": "^2.5.4",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "start": "webpack --debug --output-pathinfo --progress --profile --colors --watch",
+    "build": "cross-env NODE_ENV=production webpack -p",
+    "test": ""
+  }
+}

@@ -1,0 +1,26 @@
+// colors
+$blue: #101a4a;
+$pink: #D31245;
+
+$accent-color: $blue;
+$accent-color-hover: $pink;
+
+$btn-color: $accent-color;
+
+// fonts
+$primary-font: 'Lato', sans-serif;
+
+$decorate-font: 'Roboto', sans-serif;
+
+// container
+$container-width: 1100px;
+$container-outer-space: 10px;
+
+// breakpoints
+$S: 480px;
+$EXS: 600px;
+$M: 768px;
+$EXM: 800px;
+$L: 1025px;
+$EXL: 1200px;
+$XL: $container-width;

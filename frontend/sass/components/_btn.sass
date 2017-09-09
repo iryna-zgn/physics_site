@@ -1,0 +1,27 @@
+.w-btn
+	display: inline-block
+	vertical-align: middle
+	text-decoration: none
+	position: relative
+	cursor: pointer
+	outline: 0
+	-webkit-appearance: none
+	padding: 0 10px
+	color: #fff
+	text-align: center
+	user-select: none
+	line-height: 1
+	background-color: $btn-color
+	height: 51px
+	overflow: hidden
+	+vertical
+	.help
+		color: #ffffff
+		font-size: 1.6rem
+		text-transform: uppercase
+		letter-spacing: 1.5pt
+	+MQ(L)
+		transition: all .1s linear 0s
+		&:hover
+			background-color: $accent-color-hover
+

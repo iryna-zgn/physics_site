@@ -1,0 +1,13 @@
+$font-path: '/frontend/fonts' !default;
+
+@font-face {
+	font-family: 'DINCondensedC';
+	src: url('#{$font-path}/DINCondensedC/DINCondensedC.eot');
+	src: url('#{$font-path}/DINCondensedC/DINCondensedC.eot?#iefix') format('embedded-opentype'),
+		url('#{$font-path}/DINCondensedC/DINCondensedC.woff2') format('woff2'),
+		url('#{$font-path}/DINCondensedC/DINCondensedC.woff') format('woff'),
+		url('#{$font-path}/DINCondensedC/DINCondensedC.ttf') format('truetype'),
+		url('#{$font-path}/DINCondensedC/DINCondensedC.svg#DINCondensedC') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
