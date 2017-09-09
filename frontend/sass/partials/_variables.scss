@@ -1,6 +1,7 @@
 // colors
-$blue: #101a4a;
+$blue: #002147;
 $pink: #D31245;
+$red: #da251c;
 
 $accent-color: $blue;
 $accent-color-hover: $pink;
@@ -8,13 +9,11 @@ $accent-color-hover: $pink;
 $btn-color: $accent-color;
 
 // fonts
-$primary-font: 'Lato', sans-serif;
-
-$decorate-font: 'Roboto', sans-serif;
+$primary-font: 'PT Sans', sans-serif;
 
 // container
-$container-width: 1100px;
-$container-outer-space: 10px;
+$container-width: 1340px;
+$container-outer-space: 20px;
 
 // breakpoints
 $S: 480px;
@@ -24,3 +23,8 @@ $EXM: 800px;
 $L: 1025px;
 $EXL: 1200px;
 $XL: $container-width;
+
+// icomoon
+$icon-fb: "\e900";
+$icon-home: "\e901";
+$icon-search: "\e902";

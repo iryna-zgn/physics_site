@@ -1,0 +1,17 @@
+.main-nav
+	&__links
+		font-size: 0
+	&__item
+		display: inline-block
+		vertical-align: middle
+	&__link
+		display: inline-block
+		font-size: 1.8rem
+		text-transform: uppercase
+		padding: 25px 20px
+	+MQ(L)
+		&__link
+			transition: .2s ease
+			&:hover
+				background-color: $accent-color-hover
+		

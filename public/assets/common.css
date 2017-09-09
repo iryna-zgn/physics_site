@@ -1,3 +1,11 @@
+@charset "UTF-8";
+.clearfix:after, .clearfix:before, .container:after, .container:before, .container-row:after, .container-row:before {
+  content: "";
+  display: table; }
+
+.clearfix:after, .container:after, .container-row:after {
+  clear: both; }
+
 @font-face {
   font-family: 'DINCondensedC';
   src: url("/frontend/fonts/DINCondensedC/DINCondensedC.eot");
@@ -251,10 +259,38 @@ ul.link-holder li {
 button {
   border: none; }
 
+@font-face {
+  font-family: 'icomoon';
+  src: url("/frontend/fonts/icomoon/fonts/icomoon.eot");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-fb:before {
+  content: "\E900"; }
+
+.icon-home:before {
+  content: "\E901"; }
+
+.icon-search:before {
+  content: "\E902"; }
+
 body {
   line-height: 1.25;
   width: auto;
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.4rem;
   direction: ltr;
   overflow-x: hidden;
@@ -264,16 +300,26 @@ body {
 
 .container {
   position: relative;
-  max-width: 1100px;
+  max-width: 1340px;
   width: 100%;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin-right: auto;
   margin-left: auto; }
 
 .wrapper {
   padding-bottom: 60px;
   margin-bottom: -60px; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+  a:hover {
+    text-decoration: none; }
+
+.header {
+  background-color: #002147;
+  color: #fff; }
 
 footer,
 .footer {
@@ -284,7 +330,7 @@ footer,
   width: 100%;
   height: 60px;
   padding: 20px 0;
-  background: #101a4a; }
+  background: #002147; }
   footer .copyright,
   .footer .copyright {
     font-size: 1.6rem;
@@ -306,7 +352,7 @@ footer,
       -ms-user-select: none;
           user-select: none;
   line-height: 1;
-  background-color: #101a4a;
+  background-color: #002147;
   height: 51px;
   overflow: hidden;
   font-size: 0;
@@ -348,3 +394,22 @@ form input {
   form input::placeholder {
     color: #ccc;
     font-size: 1.8rem; }
+
+.main-nav__links {
+  font-size: 0; }
+
+.main-nav__item {
+  display: inline-block;
+  vertical-align: middle; }
+
+.main-nav__link {
+  display: inline-block;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  padding: 25px 20px; }
+
+@media only screen and (min-width: 1025px) {
+  .main-nav__link {
+    transition: .2s ease; }
+    .main-nav__link:hover {
+      background-color: #D31245; } }
