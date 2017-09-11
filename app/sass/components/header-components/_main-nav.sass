@@ -1,17 +1,49 @@
 .main-nav
-	&__links
-		font-size: 0
+	font-family: $decorate-font
 	&__item
-		display: inline-block
-		vertical-align: middle
+		margin:
+			bottom: 15px
+		padding:
+			left: 20px
+			right: 20px
 	&__link
 		display: inline-block
-		font-size: 1.8rem
+		font-size: 2.2rem
 		text-transform: uppercase
-		padding: 25px 20px
+	&.open
+		display: block
+		position: fixed
+		top: 0
+		left: 0
+		right: 0
+		bottom: 0
+		padding:
+			top: 70px
+		background-color: $accent-color
+		z-index: 1
+	+MQ(M)
+		&__links
+			font-size: 0
+		&__item
+			display: inline-block
+			vertical-align: middle
+			margin:
+				bottom: 0
+			padding:
+				left: 0
+				right: 0
+		&__link
+			padding: 19px 15px
+			font-size: 2rem
 	+MQ(L)
 		&__link
+			font-size: 2.2rem
 			transition: .2s ease
+			padding:
+				top: 15px
+				bottom: 15px
+				left: 20px
+				right: 20px
 			&:hover
 				background-color: $accent-color-hover
 		

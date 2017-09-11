@@ -28,8 +28,13 @@ a
   color: inherit
   &:hover
     text-decoration: none
-    
-.img
-  width: 400px
-  height: 400px
-  background-image: url('../images/img_not_available.jpg')
+
+.show-only-mobile
+  display: inline-block
+  +MQ(M)
+    display: none
+
+.hide-only-mobile
+  display: none
+  +MQ(M)
+    display: inline-block
