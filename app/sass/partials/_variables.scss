@@ -1,12 +1,22 @@
 // colors
 $blue: #002147;
-$pink: #D31245;
+$pink: #be0f34;
 $red: #da251c;
+$black: #333;
 
 $accent-color: $blue;
 $accent-color-hover: $pink;
 
 $btn-color: $accent-color;
+$text-color: $black;
+
+$arrow-color-1: $pink;
+$arrow-color-2: $blue;
+$arrow-color-3: rgba($blue, .75);
+
+$arrow-color-1-hover: $blue;
+$arrow-color-2-hover: rgba($blue, .75);
+$arrow-color-3-hover: $pink;
 
 // fonts
 $primary-font: 'PT Sans', sans-serif;

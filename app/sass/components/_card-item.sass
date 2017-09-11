@@ -1,0 +1,101 @@
+.card-item
+  font-size: 1.6rem
+  display: inline-block
+  &__title
+    font-size: 3.6rem
+    font-family: $decorate-font
+    text-transform: uppercase
+  &__title-link
+    display: inline-block
+  &__subtitle
+    text-transform: uppercase
+    margin:
+      bottom: 20px
+    padding: 10px
+    color: #fff
+    background-color: $accent-color-hover
+    clip-path: polygon(95% 0%, 100% 50%, 95% 100%, 0% 100%, 0 50%, 0% 0%)
+    &--color-1
+      background-color: $arrow-color-1
+    &--color-2
+      background-color: $arrow-color-2
+    &--color-3
+      background-color: $arrow-color-3
+  &__subtitle-link
+    display: block
+  &__img-link
+    display: block
+    margin:
+      bottom: 20px
+  &__img
+    display: block
+    width: 100%
+    opacity: .9
+  &__description
+    &--accent
+      font-weight: bold
+  +MQ(L)
+    &__title
+      font-size: 5rem
+  +MQ(L)
+    &__title
+      transition: .2s ease
+      &:hover
+        color: $accent-color-hover
+    &__subtitle
+      transition: .2s ease
+      &--color-1
+        &:hover
+          background-color: $arrow-color-1-hover
+      &--color-2
+        &:hover
+          background-color: $arrow-color-2-hover
+      &--color-3
+        &:hover
+          background-color: $arrow-color-3-hover
+    &__img-link
+      background-color: #000
+      position: relative
+      &:before
+        content: ""
+        display: block
+        position: absolute
+        right: 0
+        left: 0
+        top: 0
+        bottom: 0
+        background-color: rgba(#000, .1)
+        transition: .2s ease
+        z-index: 1
+      &:hover
+        &:before
+          background-color: transparent
+
+
+.card-list
+  &__item
+    margin:
+      bottom: 40px
+  +MQ(S)
+    font-size: 0
+    margin:
+      left: -10px
+      right: -10px
+    &__item
+      display: inline-block
+      vertical-align: top
+      width: 50%
+      padding:
+        left: 10px
+        right: 10px
+  +MQ(M)
+    &__item
+      width: 33.3333%
+  +MQ(L)
+    margin:
+      left: -20px
+      right: -20px
+    &__item
+      padding:
+        left: 20px
+        right: 20px
