@@ -1,12 +1,20 @@
 .intro-section
   position: relative
-  min-height: 500px
+  height: 500px
   margin:
     bottom: 70px
   background-color: $accent-color
+  background-image: url('/images/img-1.jpg')
+  background-size: cover
   color: #fff
+  font-size: 0
+  +vertical
+  text-align: left
   .intro-line
-    position: absolute
-    left: 0
-    right: 0
-    bottom: 0
+    display: inline-block
+    vertical-align: middle
+    max-width: 560px
+    width: 100%
+    .main-title
+      margin:
+        bottom: 10px

@@ -11,10 +11,13 @@
     text-transform: uppercase
     margin:
       bottom: 20px
-    padding: 10px
     color: #fff
     background-color: $accent-color-hover
     clip-path: polygon(95% 0%, 100% 50%, 95% 100%, 0% 100%, 0 50%, 0% 0%)
+    height: 60px
+    overflow: hidden
+    +vertical
+    text-align: left
     &--color-1
       background-color: $arrow-color-1
     &--color-2
@@ -22,7 +25,10 @@
     &--color-3
       background-color: $arrow-color-3
   &__subtitle-link
-    display: block
+    display: inline-block
+    vertical-align: middle
+    font-size: 1.6rem
+    padding: 10px 15px
   &__img-link
     display: block
     margin:
