@@ -18,4 +18,14 @@ $(function() {
         }
     });
 
+    $('.video-player').vide({
+        mp4: '../video/video',
+        webm: '../video/video',
+        poster: '../video/video'
+    }, {
+        posterType: 'jpg',
+        loop: true,
+        muted: true
+    });
+
 });

@@ -1,0 +1,20 @@
+{
+  "name": "optimizedhtml",
+  "description": "OptimizedHTML - Start HTML Template",
+  "main": "index.js",
+  "authors": [
+    "WebDesign Master"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/iryna-zgn/physics_site",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vide": "^0.5.1"
+  }
+}
