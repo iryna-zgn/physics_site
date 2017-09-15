@@ -2,19 +2,35 @@
   position: relative
   height: 500px
   margin:
-    bottom: 70px
+    bottom: 35px
   background-color: $accent-color
-  background-image: url('/images/img-1.jpg')
-  background-size: cover
   color: #fff
   font-size: 0
   +vertical
   text-align: left
+  overflow: hidden
+  .intro-bg
+    background-size: cover
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    filter: blur(7px)
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0
+      background-color: rgba(#000, .3)
   .intro-line
     display: inline-block
     vertical-align: middle
     max-width: 560px
     width: 100%
-    .main-title
+    .main-subtitle
       margin:
         bottom: 10px
