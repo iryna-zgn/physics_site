@@ -31,15 +31,49 @@
     padding: 10px 15px
   &__img-link
     display: block
+    position: relative
     margin:
       bottom: 20px
   &__img
     display: block
     width: 100%
     opacity: .9
+  &__link-block
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+  &__link-text
+    display: inline-block
+    padding: 10px 20px
+    background-color: rgba(#fff, .8)
+    position: relative
+    color: #000
+    font-size: 2.4rem
+    &:after
+      content: $icon-right-arrow
+      display: inline-block
+      vertical-align: middle
+      font-family: icomoon
+      font-size: 1.5rem
+      color: inherit
+      margin:
+        left: 5px
   &__description
+    display: block
+    display: -webkit-box
+    height: 16px*1.35*4
+    font-size: 16px
+    line-height: 1.35
+    -webkit-line-clamp: 4
+    -webkit-box-orient: vertical
+    overflow: hidden
+    text-overflow: ellipsis
     &--accent
       font-weight: bold
+      font-size: 1.8rem
+      //height: 45px
+      //overflow: hidden
   +MQ(L)
     &__title
       font-size: 5rem
@@ -73,10 +107,16 @@
         background-color: rgba(#000, .1)
         transition: .2s ease
         z-index: 1
+      .card-item__link-text
+        &:after
+          transition: .2s ease
       &:hover
         &:before
           background-color: transparent
-
+        .card-item__link-text
+          color: $accent-color-hover
+          &:after
+            transform: translate(5px, 0)
 
 .card-list
   &__item

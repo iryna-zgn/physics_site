@@ -24,6 +24,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-right-arrow {
+  &:before {
+    content: $icon-right-arrow;
+  }
+}
 .icon-fb {
   &:before {
     content: $icon-fb;

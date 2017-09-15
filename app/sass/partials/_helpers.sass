@@ -74,3 +74,19 @@
 =transition
   transition-duration: .5s
   transition-timing-function: cubic-bezier(.49, .46, .05, .995)
+
+=link-hover
+  position: relative
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    left: 0
+    right: 0
+    bottom: 0
+    transition: .2s ease
+    background-color: #fff
+    height: 0
+  &:hover
+    &:before
+      height: 2px
