@@ -15,9 +15,9 @@ $(function() {
 
     if ($window.width() > 1024) {
         $video.vide({
-            mp4: 'video/video',
-            webm: 'video/video',
-            poster: 'video/video'
+            mp4: 'app/video/video',
+            webm: 'app/video/video',
+            poster: 'app/video/video'
         }, {
             posterType: 'jpg',
             loop: true,
