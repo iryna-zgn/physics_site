@@ -1,15 +1,22 @@
 $(function() {
 
     var $window = $(window);
+    var $body = $('body');
+    var $header = $('header');
+
+    var TOGGLE_CLASS = 'open';
+    var SCROLLED_STATE = 'scrolled-state';
+    var OVERFLOW_STATE = 'overflow-state';
+
     var $burger = $('.burger');
     var $mainNav = $('.main-nav');
-    var TOGGLE_CLASS = 'open';
 
     var $video = $('.video-player');
 
     function toggleMenu () {
         $burger.toggleClass(TOGGLE_CLASS);
         $mainNav.toggleClass(TOGGLE_CLASS);
+        $body.toggleClass(OVERFLOW_STATE);
     }
     $burger.on('click', toggleMenu);
 
@@ -36,6 +43,12 @@ $(function() {
 
     $window.on('scroll', function () {
         console.log('scroll');
+
+        if ($window.scrollTop() > $window.height() - $header.height()) {
+            $header.addClass(SCROLLED_STATE);
+        } else {
+            $header.removeClass(SCROLLED_STATE);
+        }
     });
 
     $window.on('load', function () {

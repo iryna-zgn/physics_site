@@ -9,6 +9,8 @@ body
   min-height: 100%
   position: relative
   color: #000
+  &.overflow-state
+    overflow: hidden
 .container
   position: relative
   max-width: $container-width
@@ -40,8 +42,12 @@ p
 
 section
   padding:
-    top: 50px
-    bottom: 50px
+    top: 30px
+    bottom: 30px
+  +MQ(L)
+    padding:
+      top: 50px
+      bottom: 50px
 
 .link
   text-decoration: underline

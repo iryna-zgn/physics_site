@@ -1,8 +1,10 @@
 .intro-section
   position: relative
-  height: 500px
+  height: 100vh
   margin:
-    bottom: 50px
+    bottom: 30px
+  padding:
+    top: $header-height-mob
   background-color: $accent-color
   color: #fff
   font-size: 0
@@ -30,9 +32,17 @@
     position: relative
     display: inline-block
     vertical-align: middle
-    max-width: 560px
+    max-width: 460px
     width: 100%
     z-index: 1
     .main-subtitle
       margin:
         bottom: 10px
+  +MQ(M)
+    //height: 600px
+    padding:
+      top: $header-height
+    margin:
+      bottom: 50px
+    .intro-line
+      max-width: 560px
