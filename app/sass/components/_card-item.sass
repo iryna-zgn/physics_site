@@ -5,12 +5,14 @@
     font-size: 3.6rem
     font-family: $decorate-font
     text-transform: uppercase
+    margin:
+      bottom: 5px
   &__title-link
     display: inline-block
   &__subtitle
     text-transform: uppercase
     margin:
-      bottom: 20px
+      bottom: 23px
     color: #fff
     background-color: $accent-color-hover
     clip-path: polygon(95% 0%, 100% 50%, 95% 100%, 0% 100%, 0 50%, 0% 0%)
@@ -28,7 +30,11 @@
     display: inline-block
     vertical-align: middle
     font-size: 1.6rem
-    padding: 10px 15px
+    padding: 10px
+  &__subtitle-text
+    display: block
+    max-height: 40px
+    overflow: hidden
   &__img-link
     display: block
     position: relative
@@ -122,7 +128,7 @@
   &__item
     margin:
       bottom: 40px
-  +MQ(S)
+  +MQ(EXS)
     font-size: 0
     margin:
       left: -10px
@@ -134,7 +140,7 @@
       padding:
         left: 10px
         right: 10px
-  +MQ(M)
+  +MQ(L)
     &__item
       width: 33.3333%
       margin:

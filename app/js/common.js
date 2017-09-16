@@ -3,7 +3,9 @@ $(function() {
     var $window = $(window);
     var $burger = $('.burger');
     var $mainNav = $('.main-nav');
-    var TOGGLE_CLASS = 'open'
+    var TOGGLE_CLASS = 'open';
+
+    var $video = $('.video-player');
 
     function toggleMenu () {
         $burger.toggleClass(TOGGLE_CLASS);
@@ -11,21 +13,33 @@ $(function() {
     }
     $burger.on('click', toggleMenu);
 
+    if ($window.width() > 1024) {
+        $video.vide({
+            mp4: 'video/video',
+            webm: 'video/video',
+            poster: 'video/video'
+        }, {
+            posterType: 'jpg',
+            loop: true,
+            muted: true
+        });
+    }
+
     $window.on('resize', function () {
+        console.log('resize');
+
         if ($window.width() > 767) {
             $burger.removeClass(TOGGLE_CLASS);
             $mainNav.removeClass(TOGGLE_CLASS);
         }
     });
 
-    $('.video-player').vide({
-        mp4: 'video/video',
-        webm: 'video/video',
-        poster: 'video/video'
-    }, {
-        posterType: 'jpg',
-        loop: true,
-        muted: true
+    $window.on('scroll', function () {
+        console.log('scroll');
+    });
+
+    $window.on('load', function () {
+        console.log('load');
     });
 
 });

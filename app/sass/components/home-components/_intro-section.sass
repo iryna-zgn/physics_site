@@ -2,7 +2,7 @@
   position: relative
   height: 500px
   margin:
-    bottom: 35px
+    bottom: 50px
   background-color: $accent-color
   color: #fff
   font-size: 0
@@ -10,6 +10,14 @@
   text-align: left
   overflow: hidden
   .intro-bg
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    background-color: rgba(#000, .4)
+    z-index: 1
+  .intro-img
     background-size: cover
     background-position: center
     position: absolute
@@ -17,21 +25,14 @@
     left: 0
     right: 0
     bottom: 0
-    filter: blur(7px)
-    &:before
-      content: ''
-      display: block
-      position: absolute
-      left: 0
-      right: 0
-      top: 0
-      bottom: 0
-      background-color: rgba(#000, .3)
+    filter: blur(1px)
   .intro-line
+    position: relative
     display: inline-block
     vertical-align: middle
     max-width: 560px
     width: 100%
+    z-index: 1
     .main-subtitle
       margin:
         bottom: 10px

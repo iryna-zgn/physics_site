@@ -8,20 +8,20 @@
 		  content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
 	<title>Фізичні науки</title>
 
-	<link rel="apple-touch-icon" sizes="57x57" href="icons/favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="icons/favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="icons/favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="icons/favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="icons/favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="icons/favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="icons/favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="icons/favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="icons/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="icons/favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="icons/favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png">
-	<link rel="manifest" href="icons/favicon/manifest.json">
+	<link rel="apple-touch-icon" sizes="57x57" href="app/icons/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="app/icons/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="app/icons/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="app/icons/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="app/icons/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="app/icons/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="app/icons/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="app/icons/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="app/icons/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="app/icons/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="app/icons/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="app/icons/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="app/icons/favicon/favicon-16x16.png">
+	<link rel="manifest" href="app/icons/favicon/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
@@ -46,7 +46,7 @@
 	<meta name="format-detection" content="telephone=no">
 	<meta name="format-detection" content="address=no">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" href="css/common.min.css">
+	<link rel="stylesheet" href="app/css/common.min.css">
 </head>
 
 <body>
@@ -56,7 +56,7 @@
 		<div class="container">
 			<div class="main-logo">
 				<a href="#" class="main-logo__link">
-					<img src="icons/logo.jpg" class="main-logo__img" alt="">
+					<img src="app/icons/logo.jpg" class="main-logo__img" alt="">
 				</a>
 			</div>
 			<nav class="main-nav hide-only-mobile">
@@ -92,7 +92,8 @@
 		</div>
 	</header>
 	<section class="intro-section">
-		<div class="intro-bg" style="background-image: url('images/img-1.jpg');"></div>
+		<div class="intro-bg"></div>
+		<div class="intro-img" style="background-image: url('app/images/img-1.jpg');"></div>
 		<div class="video-player"></div>
 		<div class="intro-line">
 			<div class="container">
@@ -114,10 +115,12 @@
 							</a>
 						</div>
 						<div class="card-item__subtitle card-item__subtitle--color-1">
-							<a href="#" class="card-item__subtitle-link">Ми знаємо, хто ми є, але не знаємо, ким ми можемо бути</a>
+							<a href="#" class="card-item__subtitle-link">
+								<span class="card-item__subtitle-text">Ми знаємо, хто ми є, але не знаємо, ким ми можемо бути</span>
+							</a>
 						</div>
 						<a href="#" class="card-item__img-link">
-							<img src="images/img-5.jpg" class="card-item__img" alt="">
+							<img src="app/images/img-5.jpg" class="card-item__img" alt="">
 						</a>
 						<p class="card-item__description--accent">Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada.</p>
 						<p class="card-item__description">Donec sollicitudin molestie malesuada.Donec sollicitudin molestie malesuada.Donec sollicitudin molestie malesuada <a href="#" class="link">link here</a>. Donec sollicitudin molestie malesuada.Donec sollicitudin molestie malesuada.</p>
@@ -131,12 +134,15 @@
 							</a>
 						</div>
 						<div class="card-item__subtitle card-item__subtitle--color-2">
-							<a href="#" class="card-item__subtitle-link">Ми фізики і маємо право на збереження енергії</a>
+							<a href="#" class="card-item__subtitle-link">
+								<span class="card-item__subtitle-text">Ми фізики і маємо право на збереження енергії</span>
+							</a>
 						</div>
 						<a href="#" class="card-item__img-link">
-							<img src="images/img-4.jpg" class="card-item__img" alt="">
+							<img src="app/images/img-4.jpg" class="card-item__img" alt="">
 						</a>
-						<p class="card-item__description--accent">Ми фізики і маємо право на збереження енергії.</p>
+						<p class="card-item__description--accent">
+							Ми фізики і маємо право на збереження енергії.</p>
 						<p class="card-item__description">Donec sollicitudin molestie malesuada.Donec sollicitudin molestie malesuada.Donec sollicitudin molestie malesuada.Donec sollicitudin molestie malesuada.Donec sollicitudin molestie malesuada.</p>
 					</div>
 				</li>
@@ -148,10 +154,12 @@
 							</a>
 						</div>
 						<div class="card-item__subtitle card-item__subtitle--color-3">
-							<a href="#" class="card-item__subtitle-link">Фізика – це велика насолода</a>
+							<a href="#" class="card-item__subtitle-link">
+								<span class="card-item__subtitle-text">Фізика – це велика насолода</span>
+							</a>
 						</div>
 						<a href="#" class="card-item__img-link">
-							<img src="images/img-3.jpg" class="card-item__img" alt="">
+							<img src="app/images/img-3.jpg" class="card-item__img" alt="">
 						</a>
 						<p class="card-item__description--accent">Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada.</p>
 						<p class="card-item__description">Donec sollicitudin molestie malesuada.Donec sollicitudin molestie malesuada.Donec sollicitudin molestie malesuad.</p>
@@ -167,7 +175,7 @@
 				<li class="card-list__item">
 					<div class="card-item">
 						<a href="#" class="card-item__img-link">
-							<img src="images/img-2.jpg" class="card-item__img" alt="">
+							<img src="app/images/img-2.jpg" class="card-item__img" alt="">
 							<span class="card-item__link-block">
 								<span class="card-item__link-text">Новини</span>
 							</span>
@@ -177,7 +185,7 @@
 				<li class="card-list__item">
 					<div class="card-item">
 						<a href="#" class="card-item__img-link">
-							<img src="images/img-3.jpg" class="card-item__img" alt="">
+							<img src="app/images/img-3.jpg" class="card-item__img" alt="">
 							<span class="card-item__link-block">
 								<span class="card-item__link-text">Анонси подій</span>
 							</span>
@@ -187,7 +195,7 @@
 				<li class="card-list__item">
 					<div class="card-item">
 						<a href="#" class="card-item__img-link">
-							<img src="images/img-1.jpg" class="card-item__img" alt="">
+							<img src="app/images/img-1.jpg" class="card-item__img" alt="">
 							<span class="card-item__link-block">
 								<span class="card-item__link-text">Наукові школи та проекти</span>
 							</span>
@@ -204,9 +212,6 @@
 <footer class="footer">
 	<div class="container">
 
-		<div class="footer-col copyright">
-			© 2017 Фізичні науки, СНУ ім. Лесі Українки
-		</div>
 		<div class="footer-col contacts-footer">
 			<div class="contacts-footer__col">
 				<a href="#" class="contacts-footer__link">Контакти</a>
@@ -230,12 +235,15 @@
 				</li>
 			</ul>
 		</div>
+		<div class="footer-col copyright">
+			© 2017 Фізичні науки, СНУ ім. Лесі Українки
+		</div>
 
 	</div>
 </footer>
 
-	<link rel="stylesheet" href="css/main.min.css">
-	<script src="js/scripts.min.js"></script>
+	<link rel="stylesheet" href="app/css/main.min.css">
+	<script src="app/js/scripts.min.js"></script>
 
 </body>
 </html>

@@ -40,8 +40,8 @@ p
 
 section
   padding:
-    top: 40px
-    bottom: 40px
+    top: 50px
+    bottom: 50px
 
 .link
   text-decoration: underline
@@ -63,6 +63,7 @@ section
   height: 100%
   width: 100%
   z-index: 0
+  display: none
   &:after
     content: ""
     position: absolute
@@ -71,6 +72,9 @@ section
     bottom: 0
     right: 0
     z-index: 100
+  +MQ(L)
+    display: block
+
 .js-video-container
   position: absolute
   left: 0
