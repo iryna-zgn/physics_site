@@ -10,7 +10,10 @@
     &:not(:last-child)
       margin:
         bottom: 5px
+  &__link
+    border-bottom: 1px solid #fff
+    transition: .2s ease
   +MQ(L)
-    &__email,
     &__link
-      +link-hover-border
+      &:hover
+        border-bottom-color: transparent
