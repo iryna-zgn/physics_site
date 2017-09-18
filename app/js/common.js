@@ -53,6 +53,37 @@ $(function() {
 
     $window.on('load', function () {
         console.log('load');
+
+        var mapBlock = document.getElementById('map');
+        var LAT = Number(mapBlock.getAttribute('data-lat'));
+        var LNG = Number(mapBlock.getAttribute('data-lng'));
+        var ADDRESS = mapBlock.getAttribute('data-address');
+        var ICON_PATH = 'app/icons/marker.jpg';
+
+        var COORDINATES = { lat: LAT, lng: LNG };
+        var map = new google.maps.Map(mapBlock, {
+            zoom: 18,
+            center: COORDINATES,
+            mapTypeControl: false
+        });
+        var infoWindow = new google.maps.InfoWindow();
+
+        var marker = new google.maps.Marker({
+            position: COORDINATES,
+            icon: ICON_PATH,
+            map: map
+        });
+
+        infoWindow.setOptions({
+            content: '<div class="info-window">' + ADDRESS + '</div>',
+            pixelOffset: new google.maps.Size(0, 170)
+        });
+
+        infoWindow.open(map, marker);
+
+        google.maps.event.addDomListener(window, 'resize', function () {
+            map.setCenter(COORDINATES);
+        });
     });
 
 });
