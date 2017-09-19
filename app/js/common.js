@@ -5,6 +5,7 @@ $(function() {
     var $header = $('header');
 
     var TOGGLE_CLASS = 'open';
+    var SHOW_CLASS = 'show';
     var SCROLLED_STATE = 'scrolled-state';
     var OVERFLOW_STATE = 'overflow-state';
 
@@ -84,6 +85,10 @@ $(function() {
         google.maps.event.addDomListener(window, 'resize', function () {
             map.setCenter(COORDINATES);
         });
+
+        setTimeout(function () {
+            $video.addClass(SHOW_CLASS);
+        }, 1000);
     });
 
 });

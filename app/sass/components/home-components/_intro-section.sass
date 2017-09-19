@@ -32,17 +32,23 @@
     position: relative
     display: inline-block
     vertical-align: middle
-    max-width: 460px
     width: 100%
     z-index: 1
     .main-subtitle
       margin:
         bottom: 10px
+  .intro-line__inner
+    max-width: 460px
+  .video-player
+    opacity: 0
+    transition: .2s linear
+    &.show
+      opacity: 1
   +MQ(M)
     //height: 600px
     padding:
       top: $header-height
     margin:
       bottom: 50px
-    .intro-line
+    .intro-line__inner
       max-width: 560px
