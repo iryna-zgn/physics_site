@@ -1,0 +1,28 @@
+.text-list
+  font-size: 1.8rem
+  line-height: 1.35
+  margin:
+    bottom: 20px
+  &__item
+    position: relative
+    &:not(:last-child)
+      margin:
+        bottom: 10px
+    &:before
+      content: ""
+      display: inline-block
+      vertical-align: top
+      position: absolute
+      left: 0
+      top: 8px
+      width: 8px
+      height: 8px
+      border-radius: 50%
+      background-color: $accent-color
+      margin:
+        right: -6px
+  &__help
+    display: inline-block
+    vertical-align: top
+    padding:
+      left: 17px

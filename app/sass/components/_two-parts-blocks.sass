@@ -1,0 +1,24 @@
+.two-parts-block
+  &__const-part
+    margin:
+      bottom: 40px
+  +MQ(M)
+    font-size: 0
+    &__const-part,
+    &__var-part
+      display: inline-block
+      vertical-align: top
+    &__const-part
+      display: inline-block
+      position: relative
+      width: 200px
+      margin:
+        bottom: 0
+        right: -200px
+      z-index: 1
+    &__var-part
+      width: 100%
+      padding:
+        left: 200px
+    &__inner
+      padding: 0 20px

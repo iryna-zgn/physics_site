@@ -14,6 +14,9 @@ $(function() {
 
     var $video = $('.video-player');
 
+    var $categoriesGroupLink = $('.categories-links__item--group .categories-links__link');
+    var subcategoriesLinks = ('.subcategories-links');
+
     function toggleMenu () {
         $burger.toggleClass(TOGGLE_CLASS);
         $mainNav.toggleClass(TOGGLE_CLASS);
@@ -32,6 +35,14 @@ $(function() {
             muted: true
         });
     }
+
+    $categoriesGroupLink.on('click', function (e) {
+        var target = $(this).next(subcategoriesLinks);
+
+        e.preventDefault();
+        $(subcategoriesLinks).not(target).removeClass('open');
+        target.toggleClass('open');
+    });
 
     $window.on('resize', function () {
         console.log('resize');

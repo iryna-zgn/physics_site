@@ -1,0 +1,47 @@
+.categories-links
+  font-size: 1.6rem
+  &__item
+    padding:
+      top: 8px
+      bottom: 8px
+    &.active
+      .categories-links__link
+        text-decoration: underline
+        &:hover
+          text-decoration: none
+  &__link
+    text-transform: uppercase
+    border-bottom: 1px dashed rgba(#000, .5)
+  +MQ(L)
+    &__link
+      transition: .2s ease
+      &:hover
+        border-bottom-color: transparent
+    &__item--single
+      .categories-links__link
+        border-bottom: 1px solid rgba(#000, .5)
+      +MQ(L)
+        .categories-links__link
+          transition: .2s ease
+          &:hover
+            border-bottom-color: transparent
+
+.subcategories-links
+  display: none
+  &.open
+    display: block
+  &__item
+    padding: 7px
+    &:first-child
+      padding:
+        top: 12px
+    &:last-child
+      padding:
+        bottom: 9px
+  &__link
+    border-bottom: 1px solid rgba(#000, .5)
+  +MQ(L)
+    &__link
+      transition: .2s ease
+      &:hover
+        border-bottom-color: transparent
