@@ -11,21 +11,33 @@ body
   color: #000
   &.overflow-state
     overflow: hidden
+
+body:not(.front)
+  .wrapper
+    padding:
+      top: $header-height-mob
+  +MQ(M)
+    .wrapper
+      padding:
+        top: $header-height
+
+//.wrapper
+//  min-height: 100vh
+//  padding-bottom: 187px
+//  +MQ(L)
+//    padding-bottom: 187px
+
+
 .container
   position: relative
   max-width: $container-width
   width: 100%
   padding:
-  	right: $container-outer-space
-  	left: $container-outer-space
+    right: $container-outer-space
+    left: $container-outer-space
   margin:
-  	right: auto
-  	left: auto
-//.wrapper
-//  padding-bottom: 50px
-//  +MQ(L)
-//    padding-bottom: 100px
-  //margin-bottom: -60px
+    right: auto
+    left: auto
 
 a
   text-decoration: none
