@@ -17,6 +17,9 @@ $(function() {
     var $categoriesGroupLink = $('.categories-links__item--group .categories-links__link');
     var subcategoriesLinks = ('.subcategories-links');
 
+    var $imgSlider = $('.img-slider');
+
+    // burger
     function toggleMenu () {
         $burger.toggleClass(TOGGLE_CLASS);
         $mainNav.toggleClass(TOGGLE_CLASS);
@@ -24,6 +27,7 @@ $(function() {
     }
     $burger.on('click', toggleMenu);
 
+    // bg video
     if ($window.width() > 1024) {
         $video.vide({
             mp4: 'app/video/video',
@@ -36,12 +40,23 @@ $(function() {
         });
     }
 
+    // collapse links
     $categoriesGroupLink.on('click', function (e) {
         var target = $(this).next(subcategoriesLinks);
 
         e.preventDefault();
         $(subcategoriesLinks).not(target).removeClass('open');
         target.toggleClass('open');
+    });
+
+    // img slider
+    $imgSlider.slick({
+        slide: '.img-slider__slide',
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        autoplay: true,
+        autoSpeed: 2000
     });
 
     $window.on('resize', function () {
