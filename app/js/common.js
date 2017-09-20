@@ -50,6 +50,7 @@ $(function() {
         if ($window.width() > 767) {
             $burger.removeClass(TOGGLE_CLASS);
             $mainNav.removeClass(TOGGLE_CLASS);
+            $body.removeClass(OVERFLOW_STATE);
         }
     });
 
