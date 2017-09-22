@@ -19,6 +19,10 @@ $(function() {
 
     var $imgSlider = $('.img-slider');
 
+    var $imgPopup = $('.img-popup');
+
+    var $tabs = $('.tabs');
+
     // burger
     function toggleMenu () {
         $burger.toggleClass(TOGGLE_CLASS);
@@ -58,6 +62,17 @@ $(function() {
         autoplay: true,
         autoSpeed: 2000
     });
+
+    // img popup
+    $imgPopup.magnificPopup({
+        type: 'image',
+        fixedContentPos: true,
+        image: {
+            verticalFit: true
+        },
+        preloader: false
+    });
+
 
     $window.on('resize', function () {
         console.log('resize');

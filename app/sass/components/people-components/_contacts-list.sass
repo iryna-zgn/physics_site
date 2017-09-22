@@ -1,0 +1,36 @@
+.contacts-list
+  font-size: 1.8rem
+  &__item
+    position: relative
+    display: block
+    margin:
+      bottom: 10px
+  &__help
+    display: inline-block
+    vertical-align: middle
+    padding:
+      left: 30px
+    &:before
+      position: absolute
+      left: 0
+      top: 50%
+      color: $accent-color
+  &__item--phone
+    .contacts-list__help
+      &:before
+        content: $icon-phone
+        font-family: icomoon
+        font-size: 2rem
+        margin:
+          top: -10px
+  &__item--email
+    .contacts-list__help
+      &:before
+        content: $icon-envelope
+        font-family: icomoon
+        font-size: 1.4rem
+        margin:
+          top: -7px
+  &__link
+    display: inline-block
+    font-weight: bold

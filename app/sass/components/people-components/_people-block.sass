@@ -1,0 +1,49 @@
+.people-block
+  font-size: 1.8rem
+  &__inner
+    max-width: 570px
+  &__title
+    display: block
+    font-size: 2.6rem
+    font-weight: 500
+    line-height: 1.24
+    margin:
+      bottom: 10px
+  &__subtitle
+    font-size: 2.4rem
+    font-weight: 500
+    margin:
+      bottom: 15px
+  &__img
+    display: block
+    max-width: 100%
+    height: auto
+  &__description
+    margin:
+      bottom: 20px
+  &__footnote
+    max-width: 630px
+    font-size: 1.2rem
+    line-height: 2
+    color: rgba(#000, .5)
+    margin:
+      bottom: 23px
+  +MQ(M)
+    font-size: 0
+    &__const-col,
+    &__var-col
+      display: inline-block
+      vertical-align: top
+    &__const-col
+      position: relative
+      width: 350px
+      margin:
+        right: -350px
+    &__var-col
+      width: 100%
+      padding:
+        left: 375px
+        top: 5px
+    &__title
+      font-size: 3rem
+

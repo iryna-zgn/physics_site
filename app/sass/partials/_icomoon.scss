@@ -24,6 +24,31 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-envelope {
+  &:before {
+    content: $icon-envelope;
+  }
+}
+.icon-phone {
+  &:before {
+    content: $icon-phone;
+  }
+}
+.icon-close {
+  &:before {
+    content: $icon-close;
+  }
+}
+.icon-download {
+  &:before {
+    content: $icon-download;
+  }
+}
+.icon-instagram {
+  &:before {
+    content: $icon-instagram;
+  }
+}
 .icon-right-arrow {
   &:before {
     content: $icon-right-arrow;
@@ -44,3 +69,4 @@
     content: $icon-search;
   }
 }
+

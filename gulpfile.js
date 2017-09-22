@@ -29,6 +29,8 @@ gulp.task('js', ['common-js'], function() {
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/vide/dist/jquery.vide.min.js',
 		'app/libs/slick-carousel/slick/slick.min.js',
+		'app/libs/magnific-popup/dist/jquery.magnific-popup.js',
+		'app/libs/bootstrap/js/tabs.js',
 		'app/js/common.min.js'
 		])
 	.pipe(concat('scripts.min.js'))
