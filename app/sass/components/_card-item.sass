@@ -13,6 +13,8 @@
     text-transform: uppercase
     margin:
       bottom: 23px
+      left: -20px
+      right: -20px
     color: #fff
     background-color: $accent-color-hover
     clip-path: polygon(95% 0%, 100% 50%, 95% 100%, 0% 100%, 0 50%, 0% 0%)
@@ -40,6 +42,8 @@
     position: relative
     margin:
       bottom: 20px
+      left: -20px
+      right: -20px
   &__img
     display: block
     width: 100%
@@ -80,6 +84,15 @@
       font-size: 2rem
       //height: 45px
       //overflow: hidden
+  +MQ(EXS)
+    &__img-link
+      margin:
+        left: 0
+        right: 0
+    &__subtitle
+      margin:
+        left: 0
+        right: 0
   +MQ(L)
     &__title
       font-size: 5rem
