@@ -5,10 +5,10 @@
   &__title
     display: block
     font-size: 2.6rem
-    font-weight: 500
+    font-weight: bold
     line-height: 1.24
     margin:
-      bottom: 10px
+      bottom: 13px
   &__subtitle
     font-size: 2.4rem
     font-weight: 500
@@ -30,10 +30,13 @@
       bottom: 23px
   +MQ(M)
     font-size: 0
+    direction: rtl
+    text-align: left
     &__const-col,
     &__var-col
       display: inline-block
       vertical-align: top
+      direction: ltr
     &__const-col
       position: relative
       width: 350px
