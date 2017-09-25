@@ -20,8 +20,11 @@ $(function() {
     var $imgSlider = $('.img-slider');
 
     var $imgPopup = $('.img-popup');
+    var $imgPopupGallery = $('.img-popup-gallery');
 
-    var $tabs = $('.tabs');
+    var $grid = $('.grid');
+    var gridItem = '.grid-item';
+    var gridItemWidth = $('.grid-item').width();
 
     // burger
     function toggleMenu () {
@@ -71,6 +74,22 @@ $(function() {
             verticalFit: true
         },
         preloader: false
+    });
+
+    // img popup Gallery
+    $imgPopupGallery.magnificPopup({
+        delegate: '.popup-link',
+        type: 'image',
+        gallery: {
+            enabled: true,
+            navigateByImgClick: true
+        }
+    });
+
+    // grid
+    $grid.masonry({
+        itemSelector: gridItem,
+        columnWidth: gridItem
     });
 
 

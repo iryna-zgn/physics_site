@@ -10,6 +10,7 @@
         cursor: default;
         border-bottom-color: transparent;
         font-weight: bold;
+        pointer-events: none;
       }
     }
     > a {
@@ -24,8 +25,8 @@
       text-decoration: none;
 
       background: transparent;
-      font-size: 2.1rem;
-      border-bottom: 1px dashed rgba(#000, .5);
+      font-size: 2rem;
+      @include link-style;
       &:hover {
         border-bottom-color: transparent;
       }

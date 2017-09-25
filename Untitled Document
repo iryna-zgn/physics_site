@@ -47,23 +47,6 @@
     <meta name="format-detection" content="address=no">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="app/css/common.min.css">
-    <style>
-        .page-list {
-            font-size: 20px;
-        }
-        .page-list a span {
-            text-decoration: underline;
-        }
-        .page-list a span:hover {
-            text-decoration: none;
-        }
-        .page-list li {
-            padding: 5px 0;
-        }
-        .page-list .done {
-            color: green;
-        }
-    </style>
 </head>
 
 <body>
@@ -107,10 +90,12 @@
             </div>
         </div>
     </header>
-    <section class="people-page">
+    <section>
         <div class="container">
+
             <div class="two-parts-block">
                 <div class="two-parts-block__const-part">
+
                     <ul class="categories-links">
                         <li class="categories-links__item categories-links__item--group">
                             <a href="#" class="categories-links__link">ЕФтаІВТ</a>
@@ -147,113 +132,104 @@
                             <a href="#" class="categories-links__link">Концепція розвитку</a>
                         </li>
                     </ul>
+
                 </div>
                 <div class="two-parts-block__var-part">
-                    <ul class="grid people-list img-popup-gallery">
-                        <li class="grid-item people-list__item">
+                    <ul class="people-list img-popup">
+                        <li class="people-list__item">
                             <div class="person-card">
-                                <a href="/app/images/people/svidzynskyj.jpg" class="popup-link person-card__img-link">
-                                    <img src="/app/images/people/svidzynskyj.jpg" class="person-card__img">
+                                <a href="/app/images/people/svidzynskyj.jpg" class="person-card__img-link">
+                                    <img src="/app/images/people/svidzynskyj.jpg" alt="" class="person-card__img">
                                 </a>
                                 <div class="person-card__text">
                                     <div class="person-card__name">Свідзинський <br> Анатолій Вадимович</div>
-                                    <div class="person-card__description">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</div>
+                                    <div class="person-card__description">Доктор фізико-математичних наук, завідувач кафедри, професор кафедри</div>
                                 </div>
                                 <a href="#" class="person-card__link">Дізнатись більше</a>
                             </div>
                         </li>
-                        <li class="grid-item people-list__item">
+                        <li class="people-list__item">
                             <div class="person-card">
-                                <a href="/app/images/people/fedosov.jpg" class="popup-link person-card__img-link">
-                                    <img src="/app/images/people/fedosov.jpg" class="person-card__img">
+                                <a href="/app/images/people/fedosov.jpg" class="person-card__img-link">
+                                    <img src="/app/images/people/fedosov.jpg" alt="" class="person-card__img">
                                 </a>
                                 <div class="person-card__text">
                                     <div class="person-card__name">Федосов <br> Сергій Анатолійович</div>
-                                    <div class="person-card__description">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</div>
+                                    <div class="person-card__description">Доктор фізико-математичних наук, доцент, завідувач кафедри, професор кафедри</div>
                                 </div>
                                 <a href="#" class="person-card__link">Дізнатись більше</a>
                             </div>
                         </li>
-                        <li class="grid-item people-list__item">
+                        <li class="people-list__item">
                             <div class="person-card">
-                                <a href="/app/images/people/bogdanyuk.jpg" class="popup-link person-card__img-link">
-                                    <img src="/app/images/people/bogdanyuk.jpg" class="person-card__img">
+                                <a href="/app/images/people/bogdanyuk.jpg" class="person-card__img-link">
+                                    <img src="/app/images/people/bogdanyuk.jpg" alt="" class="person-card__img">
                                 </a>
                                 <div class="person-card__text">
                                     <div class="person-card__name">Богданюк <br> Микола Сергійович</div>
-                                    <div class="person-card__description">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</div>
+                                    <div class="person-card__description">кандидат фізико-математичних наук, доцент</div>
                                 </div>
                                 <a href="#" class="person-card__link">Дізнатись більше</a>
                             </div>
                         </li>
-                        <li class="grid-item people-list__item">
+                        <li class="people-list__item">
                             <div class="person-card">
-                                <a href="/app/images/people/golovina.jpg" class="popup-link person-card__img-link">
-                                    <img src="/app/images/people/golovina.jpg" class="person-card__img">
+                                <a href="/app/images/people/golovina.jpg" class="person-card__img-link">
+                                    <img src="/app/images/people/golovina.jpg" alt="" class="person-card__img">
                                 </a>
                                 <div class="person-card__text">
                                     <div class="person-card__name">Головіна <br> Ніна Анатоліївна</div>
-                                    <div class="person-card__description">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</div>
+                                    <div class="person-card__description">кандидат фізико-математичних наук, доцент</div>
                                 </div>
                                 <a href="#" class="person-card__link">Дізнатись більше</a>
                             </div>
                         </li>
-                        <li class="grid-item people-list__item">
+
+
+                        <li class="people-list__item">
                             <div class="person-card">
-                                <a href="/app/images/people/feynman.jpg" class="popup-link person-card__img-link">
-                                    <img src="/app/images/people/feynman.jpg" class="person-card__img">
+                                <a href="/app/images/people/feynman.jpg" class="person-card__img-link">
+                                    <img src="/app/images/people/feynman.jpg" alt="" class="person-card__img">
                                 </a>
                                 <div class="person-card__text">
-                                    <div class="person-card__name">Річард <br> Філіпс Фейнман</div>
-                                    <div class="person-card__description">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</div>
+                                    <div class="person-card__name">Свідзинський <br> Анатолій Вадимович</div>
+                                    <div class="person-card__description">Доктор фізико-математичних наук, завідувач кафедри, професор кафедри</div>
                                 </div>
                                 <a href="#" class="person-card__link">Дізнатись більше</a>
                             </div>
                         </li>
-                        <li class="grid-item people-list__item">
+                        <li class="people-list__item">
                             <div class="person-card">
-                                <a href="/app/images/people/dirac.jpg" class="popup-link person-card__img-link">
-                                    <img src="/app/images/people/dirac.jpg" class="person-card__img">
+                                <a href="/app/images/people/boltzmann.jpg" class="person-card__img-link">
+                                    <img src="/app/images/people/boltzmann.jpg" alt="" class="person-card__img">
                                 </a>
                                 <div class="person-card__text">
-                                    <div class="person-card__name">Поль Дірак</div>
-                                    <div class="person-card__description">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</div>
+                                    <div class="person-card__name">Федосов <br> Сергій Анатолійович</div>
+                                    <div class="person-card__description">Доктор фізико-математичних наук, доцент, завідувач кафедри, професор кафедри</div>
                                 </div>
                                 <a href="#" class="person-card__link">Дізнатись більше</a>
                             </div>
                         </li>
-                        <li class="grid-item people-list__item">
+                        <li class="people-list__item">
                             <div class="person-card">
-                                <a href="/app/images/people/boltzmann.jpg" class="popup-link person-card__img-link">
-                                    <img src="/app/images/people/boltzmann.jpg" class="person-card__img">
+                                <a href="/app/images/people/dirac.jpg" class="person-card__img-link">
+                                    <img src="/app/images/people/dirac.jpg" alt="" class="person-card__img">
                                 </a>
                                 <div class="person-card__text">
-                                    <div class="person-card__name">Людвіг Больцман</div>
-                                    <div class="person-card__description">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</div>
+                                    <div class="person-card__name">Свідзинський <br> Анатолій Вадимович</div>
+                                    <div class="person-card__description">Доктор фізико-математичних наук, завідувач кафедри, професор кафедри</div>
                                 </div>
                                 <a href="#" class="person-card__link">Дізнатись більше</a>
                             </div>
                         </li>
-                        <li class="grid-item people-list__item">
+                        <li class="people-list__item">
                             <div class="person-card">
-                                <a href="/app/images/people/tesla.jpg" class="popup-link person-card__img-link">
-                                    <img src="/app/images/people/tesla.jpg" class="person-card__img">
+                                <a href="/app/images/people/tesla.jpg" class="person-card__img-link">
+                                    <img src="/app/images/people/tesla.jpg" alt="" class="person-card__img">
                                 </a>
                                 <div class="person-card__text">
-                                    <div class="person-card__name">Нікола Тесла</div>
-                                    <div class="person-card__description">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</div>
-                                </div>
-                                <a href="#" class="person-card__link">Дізнатись більше</a>
-                            </div>
-                        </li>
-                        <li class="grid-item people-list__item">
-                            <div class="person-card">
-                                <a href="/app/images/people/curie.jpg" class="popup-link person-card__img-link">
-                                    <img src="/app/images/people/curie.jpg" class="person-card__img">
-                                </a>
-                                <div class="person-card__text">
-                                    <div class="person-card__name">Марія <br> Склодовська-Кюрі</div>
-                                    <div class="person-card__description">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</div>
+                                    <div class="person-card__name">Федосов <br> Сергій Анатолійович</div>
+                                    <div class="person-card__description">Доктор фізико-математичних наук, доцент, завідувач кафедри, професор кафедри</div>
                                 </div>
                                 <a href="#" class="person-card__link">Дізнатись більше</a>
                             </div>

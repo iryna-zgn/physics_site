@@ -18,6 +18,7 @@
     "vide": "^0.5.1",
     "slick-carousel": "^1.8.0",
     "magnific-popup": "^1.1.0",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "masonry": "^4.2.0"
   }
 }
