@@ -25,3 +25,21 @@
     .mfp-close
       right: -60px
       top: 40px
+
+.mfp-counter
+  display: none
+
+.mfp-arrow
+  &:before,
+  &:after
+    border: none
+  &:before
+    content: $icon-right-arrow
+    border: none
+    display: inline-block
+    vertical-align: middle
+    font-family: icomoon
+    font-size: 3rem
+    color: #fff
+  &-left
+    transform: rotate(180deg)
