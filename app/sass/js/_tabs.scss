@@ -26,7 +26,7 @@
 
       background: transparent;
       font-size: 2rem;
-      @include link-style;
+      @include link-style-dashed;
       &:hover {
         border-bottom-color: transparent;
       }

@@ -47,23 +47,6 @@
     <meta name="format-detection" content="address=no">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="app/css/common.min.css">
-    <style>
-        .page-list {
-            font-size: 20px;
-        }
-        .page-list a span {
-            text-decoration: underline;
-        }
-        .page-list a span:hover {
-            text-decoration: none;
-        }
-        .page-list li {
-            padding: 5px 0;
-        }
-        .page-list .done {
-            color: green;
-        }
-    </style>
 </head>
 
 <body>
@@ -109,121 +92,165 @@
     </header>
     <section class="people-page">
         <div class="container">
-            <div class="people-block">
-                <div class="people-block__var-col">
-                    <div class="people-block__inner">
-                        <h1 class="people-block__title">Федосов Сергій Анатолійович</h1>
-                        <p class="people-block__description">Доктор фізико-математичних наук, доцент, завідувач кафедри, професор кафедри експериментальної фізики  та інформаційно-вимірювальних технологій Східноєвропейського національного університету імені Лесі Українки</p>
-                        <ul class="contacts-list">
-                            <li class="contacts-list__item contacts-list__item--phone">
-                                <a class="contacts-list__link" href="tel:+380332249221">
-                                    <span class="contacts-list__help">(380332) 24 92 21</span></a>
-                            </li>
-                            <li class="contacts-list__item contacts-list__item--email">
-                                <a class="contacts-list__link" href="mailto:ftt@univer.lutsk.ua">
-                                    <span class="contacts-list__help">ftt@univer.lutsk.ua</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <ul class="contacts-list">
-                            <li class="contacts-list__item"><strong>Адреса для листування:</strong> Федосов С.А., Східноєвропейський  національний університет імені Лесі Українки, фізичний факультет, пр. Волі 13, Луцьк, 43025</li>
-                        </ul>
-                        <p class="people-block__paragraph"></p>
+            <div class="two-parts-block">
+                <div class="two-parts-block__const-part">
+
+                    <ul class="categories-links">
+                        <li class="categories-links__item categories-links__item--group">
+                            <a href="#" class="categories-links__link">ЕФтаІВТ</a>
+                            <ul class="subcategories-links">
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Історія кафедри</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Лабораторії</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Викладачі</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Напрями наукових досліджень</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="categories-links__item categories-links__item--group">
+                            <a href="#" class="categories-links__link">ТМФ</a>
+                            <ul class="subcategories-links">
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Історія кафедри</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Викладачі</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Напрями наукових досліджень</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="categories-links__item categories-links__item--single">
+                            <a href="#" class="categories-links__link">Концепція розвитку</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="two-parts-block__var-part">
+                    <div class="people-block">
+                    <div class="people-block__var-col">
+                        <div class="people-block__inner">
+                            <h1 class="people-block__title">Федосов Сергій Анатолійович</h1>
+                            <p class="people-block__description">Доктор фізико-математичних наук, доцент, завідувач кафедри, професор кафедри експериментальної фізики  та інформаційно-вимірювальних технологій Східноєвропейського національного університету імені Лесі Українки</p>
+                            <ul class="contacts-list">
+                                <li class="contacts-list__item contacts-list__item--phone">
+                                    <a class="contacts-list__link" href="tel:+380332249221">
+                                        <span class="contacts-list__help">(380332) 24 92 21</span></a>
+                                </li>
+                                <li class="contacts-list__item contacts-list__item--email">
+                                    <a class="contacts-list__link" href="mailto:ftt@univer.lutsk.ua">
+                                        <span class="contacts-list__help">ftt@univer.lutsk.ua</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="contacts-list">
+                                <li class="contacts-list__item"><strong>Адреса для листування:</strong> Федосов С.А., Східноєвропейський  національний університет імені Лесі Українки, фізичний факультет, пр. Волі 13, Луцьк, 43025</li>
+                            </ul>
+                            <p class="people-block__paragraph"></p>
+                        </div>
+                    </div>
+                    <div class="people-block__const-col">
+                        <a class="img-popup" href="app/images/people/fedosov.jpg">
+                            <img class="people-block__img" src="app/images/people/fedosov.jpg" alt="">
+                        </a>
                     </div>
                 </div>
-                <div class="people-block__const-col">
-                    <a class="img-popup" href="app/images/people/fedosov.jpg">
-                        <img class="people-block__img" src="app/images/people/fedosov.jpg" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="tabs">
-                <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active">
-                        <a href="#tab-1" role="tab" data-toggle="tab">Викладання</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#tab-2" role="tab" data-toggle="tab">Наука</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#tab-3" role="tab" data-toggle="tab">Біографія</a>
-                    </li>
-                </ul>
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="tab-1">
-                        <h2 class="subtitle">Дисципліни, що викладаються:</h2>
-                        <ul class="text-list">
-                            <li class="text-list__item">
-                                <span class="text-list__help">Методи обробки даних</span>
+                    <div class="tabs">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#tab-1" role="tab" data-toggle="tab">Викладання</a>
                             </li>
-                            <li class="text-list__item">
-                                <span class="text-list__help">Основи метрології та фізичних вимірювань</span>
+                            <li role="presentation">
+                                <a href="#tab-2" role="tab" data-toggle="tab">Наука</a>
                             </li>
-                            <li class="text-list__item">
-                                <span class="text-list__help">Фізика напівпровідників і діелектриків</span>
-                            </li>
-                            <li class="text-list__item">
-                                <span class="text-list__help">Радіаційна фізика твердого тіла</span>
+                            <li role="presentation">
+                                <a href="#tab-3" role="tab" data-toggle="tab">Біографія</a>
                             </li>
                         </ul>
-                        <h2 class="subtitle">Членство в офіційних наукових товариствах:</h2>
-                        <p class="paragraph">
-                            Наукове товариство ім. Т. Шевченка (НТШ)
-                        </p>
-                        <p class="paragraph">
-                            Участь в роботі Малої академії наук і в інших науково-педагогічних заходах пов’язаних з підвищенням ефективності навчального процесу в школі і виявленню найбільш обдарованої учнівської молоді – член журі обласних конкурсів-захистів наукових робіт, турнірів юних фізиків, турнірів юних винахідників та раціоналізаторів, Всеукраїнських учнівських олімпіад з базових дисциплін. Член оргкомітету Міжнародної наукової конференції «Релаксаційні, нелінійні й акустооптичні процеси та матеріали».
-                        </p>
-                        <p class="paragraph">
-                            У співпраці з іншими членами кафедри є укладачем двох видань «Фізика: тестові завдання для вступників», методичних рекомендацій для лабораторних робіт з фізики «Механіка», «Електрика», «Оптика». Автор понад 100 наукових статей.
-                        </p>
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="tab-2">
-                        <h2 class="subtitle">Тема докторської дисертації:</h2>
-                        <p class="paragraph">«Властивості багатодолинних напівпровідників зі структурними дефектами технологічного і радіаційного походженн».
-                        </p>
-                        <p class="paragraph">
-                            Donec rutrum congue leo eget malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
-                        </p>
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="tab-3">
-                        <p class="paragraph">
-                            Народився 02.05.1971 у м. Луцьк, Волинська область, УССР.
-                        </p>
-                        <p class="paragraph">
-                            У 1988 р. – закінчив середню школу № 11 м. Луцька.
-                        </p>
-                        <p class="paragraph">
-                            У 1993 р. – закінчив Луцький державний педагогічний інститут імені Лесі Українки за спеціальністю «Фізика і математика».
-                        </p>
-                        <p class="paragraph">
-                            Вересень 1993 до жовтня 1995 рр.  – інженер II-ої категорії науково-дослідної лабораторії № 6 «Фізики напівпровідників» кафедри фізики твердого тіла, займався дослідженням фізичних властивостей напівпровідникових матеріалів.
-                        </p>
-                        <p class="paragraph">
-                            З 1995 по 1998 р. – навчання в аспірантурі при кафедрі фізики твердого тіла Волинського державного університету імені Лесі Українки.
-                        </p>
-                        <p class="paragraph">
-                            1999 р. – захист дисертації у Волинському державному університеті імені Лесі Українки й одержав науковий ступінь кандидата фізико-математичних наук в області фізики напівпровідників і діелектриків.
-                        </p>
-                        <p class="paragraph">
-                            З 1998 р. – старший викладач кафедри прикладної математики,
-                            Липень 2001 р. – старший викладач кафедри фізики твердого тілаю
-                            Червень 2002 р. – доцент кафедри фізики твердого тіла Волинського державного університету імені Лесі Українки.
-                        </p>
-                        <p class="paragraph">
-                            У 2005 – 2008 рр. – докторант (очної форми навчання) кафедри фізики твердого тіла ВНУ імені Лесі Українки.
-                        </p>
-                        <p class="paragraph">
-                            З 2011 р. – доцент кафедри фізики твердого тіла та інформаційно-вимірювальних технологій
-                        </p>
-                        <p class="paragraph">
-                            Із 1 липня 2012 р. виконував обов’язки, а з 12.12.2012 року обраний на посаду декана фізичного факультету (ВНУ) Східноєвропейського національного університеті імені Лесі Українки.
-                        </p>
-                        <p class="paragraph">
-                            Виконував обов’язки члена (2002-2004 рр.) та голови (2008-2010 рр.) предметної комісії з «Фізики».
-                        </p>
-                        <p class="paragraph">
-                            У 2013 р. – захист докторської дисертації за спеціальністю «01.04.10 – фізика напівпровідників і діелектриків».
-                        </p>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="tab-1">
+                                <h2 class="subtitle">Дисципліни, що викладаються:</h2>
+                                <ul class="text-list">
+                                    <li class="text-list__item">
+                                        <span class="text-list__help">Методи обробки даних</span>
+                                    </li>
+                                    <li class="text-list__item">
+                                        <span class="text-list__help">Основи метрології та фізичних вимірювань</span>
+                                    </li>
+                                    <li class="text-list__item">
+                                        <span class="text-list__help">Фізика напівпровідників і діелектриків</span>
+                                    </li>
+                                    <li class="text-list__item">
+                                        <span class="text-list__help">Радіаційна фізика твердого тіла</span>
+                                    </li>
+                                </ul>
+                                <h2 class="subtitle">Членство в офіційних наукових товариствах:</h2>
+                                <p class="paragraph">
+                                    Наукове товариство ім. Т. Шевченка (НТШ)
+                                </p>
+                                <p class="paragraph">
+                                    Участь в роботі Малої академії наук і в інших науково-педагогічних заходах пов’язаних з підвищенням ефективності навчального процесу в школі і виявленню найбільш обдарованої учнівської молоді – член журі обласних конкурсів-захистів наукових робіт, турнірів юних фізиків, турнірів юних винахідників та раціоналізаторів, Всеукраїнських учнівських олімпіад з базових дисциплін. Член оргкомітету Міжнародної наукової конференції «Релаксаційні, нелінійні й акустооптичні процеси та матеріали».
+                                </p>
+                                <p class="paragraph">
+                                    У співпраці з іншими членами кафедри є укладачем двох видань «Фізика: тестові завдання для вступників», методичних рекомендацій для лабораторних робіт з фізики «Механіка», «Електрика», «Оптика». Автор понад 100 наукових статей.
+                                </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="tab-2">
+                                <h2 class="subtitle">Тема докторської дисертації:</h2>
+                                <p class="paragraph">«Властивості багатодолинних напівпровідників зі структурними дефектами технологічного і радіаційного походженн».
+                                </p>
+                                <p class="paragraph">
+                                    Donec rutrum congue leo eget malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+                                </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="tab-3">
+                                <p class="paragraph">
+                                    Народився 02.05.1971 у м. Луцьк, Волинська область, УССР.
+                                </p>
+                                <p class="paragraph">
+                                    У 1988 р. – закінчив середню школу № 11 м. Луцька.
+                                </p>
+                                <p class="paragraph">
+                                    У 1993 р. – закінчив Луцький державний педагогічний інститут імені Лесі Українки за спеціальністю «Фізика і математика».
+                                </p>
+                                <p class="paragraph">
+                                    Вересень 1993 до жовтня 1995 рр.  – інженер II-ої категорії науково-дослідної лабораторії № 6 «Фізики напівпровідників» кафедри фізики твердого тіла, займався дослідженням фізичних властивостей напівпровідникових матеріалів.
+                                </p>
+                                <p class="paragraph">
+                                    З 1995 по 1998 р. – навчання в аспірантурі при кафедрі фізики твердого тіла Волинського державного університету імені Лесі Українки.
+                                </p>
+                                <p class="paragraph">
+                                    1999 р. – захист дисертації у Волинському державному університеті імені Лесі Українки й одержав науковий ступінь кандидата фізико-математичних наук в області фізики напівпровідників і діелектриків.
+                                </p>
+                                <p class="paragraph">
+                                    З 1998 р. – старший викладач кафедри прикладної математики,
+                                    Липень 2001 р. – старший викладач кафедри фізики твердого тілаю
+                                    Червень 2002 р. – доцент кафедри фізики твердого тіла Волинського державного університету імені Лесі Українки.
+                                </p>
+                                <p class="paragraph">
+                                    У 2005 – 2008 рр. – докторант (очної форми навчання) кафедри фізики твердого тіла ВНУ імені Лесі Українки.
+                                </p>
+                                <p class="paragraph">
+                                    З 2011 р. – доцент кафедри фізики твердого тіла та інформаційно-вимірювальних технологій
+                                </p>
+                                <p class="paragraph">
+                                    Із 1 липня 2012 р. виконував обов’язки, а з 12.12.2012 року обраний на посаду декана фізичного факультету (ВНУ) Східноєвропейського національного університеті імені Лесі Українки.
+                                </p>
+                                <p class="paragraph">
+                                    Виконував обов’язки члена (2002-2004 рр.) та голови (2008-2010 рр.) предметної комісії з «Фізики».
+                                </p>
+                                <p class="paragraph">
+                                    У 2013 р. – захист докторської дисертації за спеціальністю «01.04.10 – фізика напівпровідників і діелектриків».
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -264,6 +291,7 @@
 
     </div>
 </footer>
+
 <link rel="stylesheet" href="app/css/main.min.css">
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkRRaRRUoDEOHHIj7EwA_wzBOQ6yiuMqE"></script>
 <script src="app/js/scripts.min.js"></script>
