@@ -24,6 +24,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-arrow-down {
+  &:before {
+    content: $icon-arrow-down;
+  }
+}
+.icon-fb {
+  &:before {
+    content: $icon-fb;
+  }
+}
+.icon-home {
+  &:before {
+    content: $icon-home;
+  }
+}
+.icon-search {
+  &:before {
+    content: $icon-search;
+  }
+}
 .icon-envelope {
   &:before {
     content: $icon-envelope;
@@ -52,21 +72,6 @@
 .icon-right-arrow {
   &:before {
     content: $icon-right-arrow;
-  }
-}
-.icon-fb {
-  &:before {
-    content: $icon-fb;
-  }
-}
-.icon-home {
-  &:before {
-    content: $icon-home;
-  }
-}
-.icon-search {
-  &:before {
-    content: $icon-search;
   }
 }
 

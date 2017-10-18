@@ -14,7 +14,7 @@ $(function() {
 
     var $video = $('.video-player');
 
-    var $categoriesGroupLink = $('.categories-links__item--group .categories-links__link');
+    var $categoriesGroupLink = $('.categories-links__item--group .categories-links__arrow-link');
     var subcategoriesLinks = ('.subcategories-links');
 
     var $imgSlider = $('.img-slider');
@@ -52,6 +52,9 @@ $(function() {
         var target = $(this).next(subcategoriesLinks);
 
         e.preventDefault();
+        $categoriesGroupLink.not($(this)).removeClass('is-up');
+        $(this).toggleClass('is-up');
+
         $(subcategoriesLinks).not(target).removeClass('open');
         target.toggleClass('open');
     });
