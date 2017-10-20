@@ -1,0 +1,65 @@
+.about-section
+  padding:
+    bottom: 30px
+    top: 0
+  &--no-padding
+    padding:
+      bottom: 0
+  &__container
+    max-width: 1010px
+    margin: 0 auto
+  &__description
+    max-width: 800px
+    font-size: 1.8rem
+    line-height: 1.25
+    margin:
+      bottom: 30px
+  &__wide-special
+    max-width: 840px
+    width: 100%
+    &--center
+      margin: 0 auto
+  &__narrow-special
+    &--left
+      padding:
+        bottom: 130px
+  &__narrow-special
+    &--right
+      padding:
+        bottom: 130px
+  +MQ(L)
+    padding:
+      bottom: 80px
+    &--no-padding
+      padding:
+        bottom: 0
+    &__description
+      margin:
+        top: 67px
+        bottom: 89px
+  +MQ(XL)
+    &__wide-special
+      &--right
+        float: right
+        padding:
+          top: 297px
+      &--left
+        float: left
+    &__narrow-special
+      &--right
+        float: right
+        padding:
+          top: 200px
+      &--left
+        float: left
+        padding:
+          bottom: 0
+
+.hide-on-mob
+  display: none
+  +MQ(M)
+    display: block
+.show-on-mob
+  display: block
+  +MQ(M)
+    display: none
