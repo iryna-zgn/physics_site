@@ -1,0 +1,71 @@
+.schema-blocks-list
+  font-size: 0
+  &__item
+    margin:
+      bottom: 10px
+      left: -20px
+      right: -20px
+  &__link
+    display: block
+    background-color: $accent-color
+    color: #fff
+    padding: 20px
+  &__text,
+  &__icon
+    display: inline-block
+    vertical-align: middle
+  &__text
+    font-family: $decorate-font
+    font-size: 2.8rem
+    line-height: 1.1
+    width: 100%
+    padding:
+      left: 75px
+  &__icon
+    font-size: 6rem
+    width: 60px
+    margin:
+      right: -60px
+  +MQ(S)
+    margin: 0 -10px
+    &__item
+      display: inline-block
+      width: 50%
+      height: 300px
+      overflow: hidden
+      padding: 0 10px
+      margin:
+        bottom: 20px
+        left: 0
+        right: 0
+    &__link
+      height: 100%
+      text-align: center
+      padding:
+        top: 30px
+        bottom: 30px
+    &__text,
+    &__icon
+      display: block
+    &__icon
+      font-size: 8rem
+      width: auto
+      margin:
+        bottom: 30px
+        right: 0
+    &__text
+      width: auto
+      padding:
+        left: 0
+      font-size: 3.2rem
+  +MQ(L)
+    &__item
+      width: 33.3333%
+    &__link
+      transition: .2s ease
+      &:hover
+        background-color: $accent-color-hover
+    &__icon
+      font-size: 10rem
+    &__text
+      font-size: 3.6rem

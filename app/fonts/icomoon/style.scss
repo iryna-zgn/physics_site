@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('#{$icomoon-font-path}/icomoon.eot?fqax2p');
-  src:  url('#{$icomoon-font-path}/icomoon.eot?fqax2p#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/icomoon.ttf?fqax2p') format('truetype'),
-    url('#{$icomoon-font-path}/icomoon.woff?fqax2p') format('woff'),
-    url('#{$icomoon-font-path}/icomoon.svg?fqax2p#icomoon') format('svg');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?aa6zk5');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?aa6zk5#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?aa6zk5') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?aa6zk5') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?aa6zk5#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,46 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-atom {
+  &:before {
+    content: $icon-atom;
+  }
+}
+.icon-electric {
+  &:before {
+    content: $icon-electric;
+  }
+}
+.icon-gravity {
+  &:before {
+    content: $icon-gravity;
+  }
+}
+.icon-mechanics {
+  &:before {
+    content: $icon-mechanics;
+  }
+}
+.icon-molecule {
+  &:before {
+    content: $icon-molecule;
+  }
+}
+.icon-momentum {
+  &:before {
+    content: $icon-momentum;
+  }
+}
+.icon-momentum1 {
+  &:before {
+    content: $icon-momentum1;
+  }
+}
+.icon-optics {
+  &:before {
+    content: $icon-optics;
+  }
+}
 .icon-arrow-down {
   &:before {
     content: $icon-arrow-down;

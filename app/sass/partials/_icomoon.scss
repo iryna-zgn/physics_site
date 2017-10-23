@@ -24,6 +24,46 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-atom {
+  &:before {
+    content: $icon-atom;
+  }
+}
+.icon-electric {
+  &:before {
+    content: $icon-electric;
+  }
+}
+.icon-gravity {
+  &:before {
+    content: $icon-gravity;
+  }
+}
+.icon-mechanics {
+  &:before {
+    content: $icon-mechanics;
+  }
+}
+.icon-molecule {
+  &:before {
+    content: $icon-molecule;
+  }
+}
+.icon-momentum {
+  &:before {
+    content: $icon-momentum;
+  }
+}
+.icon-momentum1 {
+  &:before {
+    content: $icon-momentum1;
+  }
+}
+.icon-optics {
+  &:before {
+    content: $icon-optics;
+  }
+}
 .icon-arrow-down {
   &:before {
     content: $icon-arrow-down;
