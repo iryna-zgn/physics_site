@@ -1,0 +1,28 @@
+.accordion
+  font-size: 1.8rem
+  margin:
+    bottom: 35px
+  max-width: 500px
+  &__card
+    margin:
+      bottom: 26px
+  &__card-header
+    background-color: $accent-color
+    color: #fff
+    font-size: 2rem
+    clip-path: polygon(95% 0,100% 50%,95% 100%,0 100%,0 50%,0 0)
+  &__link
+    display: block
+    padding: 15px
+  &__text
+  &__content
+  &__card-body
+    padding:
+      top: 15px
+      bottom: 20px
+  +MQ(L)
+    &__card-header
+      transition: .2s ease
+      &:hover
+        transform: translateX(10px)
+        background-color: $accent-color-hover
