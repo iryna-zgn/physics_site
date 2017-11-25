@@ -1,5 +1,5 @@
 .categories-links
-  font-size: 1.6rem
+  font-size: 2.4rem
   line-height: 1.5
   &__item
     padding:
@@ -8,6 +8,8 @@
       right: 30px
     &--group
       position: relative
+      padding:
+        left: 20px
     &.active
       .categories-links__link
         text-decoration: underline
@@ -26,6 +28,12 @@
     display: block
     font-size: 1.2rem
     color: inherit
+  +MQ(M)
+    font-size: 1.6rem
+    &__item
+      &--group
+        padding:
+          left: 0
   +MQ(L)
     &__link
       transition: .2s ease
@@ -52,8 +60,11 @@
       padding:
         bottom: 9px
   &--sublevel
-    font-size: 1.4rem
+    font-size: 2.2rem
     line-height: 1.35
+  +MQ(M)
+    &--sublevel
+      font-size: 1.4rem
   +MQ(L)
     &__link
       transition: .2s ease
