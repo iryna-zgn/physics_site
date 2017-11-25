@@ -2,11 +2,14 @@
   width: 100%
   font-size: 0
   &__img
+    position: relative
     text-align: center
     margin:
       bottom: 25px
       left: -20px
       right: -20px
+    a
+      display: block
     img
       display: inline-block
       max-width: 100%
@@ -46,6 +49,21 @@
       text-align: right
       margin:
         bottom: 0
+      a
+        &:before
+          content: ""
+          display: block
+          position: absolute
+          right: 0
+          left: 0
+          top: 0
+          bottom: 0
+          background-color: rgba(#000, .1)
+          transition: .2s ease
+          z-index: 1
+        &:hover
+          &:before
+            background-color: transparent
     &__text
       width: 50%
       direction: ltr
