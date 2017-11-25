@@ -7,22 +7,43 @@
     margin:
       bottom: 26px
   &__card-header
-    background-color: $accent-color
     color: #fff
     font-size: 2rem
-    clip-path: polygon(95% 0,100% 50%,95% 100%,0 100%,0 50%,0 0)
+    //clip-path: polygon(95% 0,100% 50%,95% 100%,0 100%,0 50%,0 0)
   &__link
+    position: relative
+    background-color: $accent-color
     display: block
-    padding: 15px
-  &__text
-  &__content
+    padding:
+      top: 15px
+      right: 35px
+      bottom: 15px
+      left: 15px
+    &:after
+      content: $icon-right-arrow
+      position: absolute
+      right: 15px
+      top: 50%
+      margin:
+        top: -15px
+      font-family: icomoon
+      font-size: 2rem
+      color: #fff
+      transform: rotate(90deg)
+    &.active
+      background-color: $accent-color-hover
+      &:after
+        transform: rotate(-90deg)
   &__card-body
     padding:
       top: 15px
       bottom: 20px
   +MQ(L)
-    &__card-header
+    &__link
       transition: .2s ease
+      &:after
+        transition: .2s ease
       &:hover
-        transform: translateX(10px)
         background-color: $accent-color-hover
+        &:after
+          transform: rotate(-90deg)

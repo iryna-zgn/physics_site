@@ -24,7 +24,9 @@ $(function() {
 
     var $grid = $('.grid');
     var gridItem = '.grid-item';
-    var gridItemWidth = $('.grid-item').width();
+    var gridItemWidth = $('.grid-item').width()
+
+    var $accLink = $('.accordion__link');
 
     // burger
     function toggleMenu () {
@@ -93,6 +95,11 @@ $(function() {
     $grid.masonry({
         itemSelector: gridItem,
         columnWidth: gridItem
+    });
+
+    // accordion link active class
+    $accLink.on('click', function () {
+       $(this).toggleClass('active');
     });
 
 
