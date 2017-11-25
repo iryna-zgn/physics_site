@@ -89,6 +89,10 @@ section
   +MQ(M)
     display: inline-block
 
+.hide-for-mobile
+  @media only screen and (max-width: 767px)
+    display: none !important
+
 .video-player
   position: absolute
   left: 0
@@ -116,6 +120,6 @@ section
   bottom: 0
   z-index: 0
 
-.hide-for-mobile
-  @media only screen and (max-width: 767px)
-    display: none !important
+.page-description
+  margin:
+    bottom: 50px
