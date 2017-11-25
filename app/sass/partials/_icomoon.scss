@@ -24,6 +24,66 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-businessman2 {
+  &:before {
+    content: $icon-businessman2;
+  }
+}
+.icon-business-meeting {
+  &:before {
+    content: $icon-business-meeting;
+  }
+}
+.icon-earth {
+  &:before {
+    content: $icon-earth;
+  }
+}
+.icon-person-check {
+  &:before {
+    content: $icon-person-check;
+  }
+}
+.icon-statistics {
+  &:before {
+    content: $icon-statistics;
+  }
+}
+.icon-personal-mail {
+  &:before {
+    content: $icon-personal-mail;
+  }
+}
+.icon-edit-document {
+  &:before {
+    content: $icon-edit-document;
+  }
+}
+.icon-document-3 {
+  &:before {
+    content: $icon-document-3;
+  }
+}
+.icon-demostration {
+  &:before {
+    content: $icon-demostration;
+  }
+}
+.icon-curriculum {
+  &:before {
+    content: $icon-curriculum;
+  }
+}
+.icon-curriculum-1 {
+  &:before {
+    content: $icon-curriculum-1;
+  }
+}
+.icon-bar-chart {
+  &:before {
+    content: $icon-bar-chart;
+  }
+}
 .icon-work {
   &:before {
     content: $icon-work;
@@ -149,4 +209,3 @@
     content: $icon-optics;
   }
 }
-

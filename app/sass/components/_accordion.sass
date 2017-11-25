@@ -1,5 +1,4 @@
 .accordion
-  font-size: 1.8rem
   margin:
     bottom: 35px
   max-width: 500px
@@ -9,7 +8,10 @@
   &__card-header
     color: #fff
     font-size: 2rem
-    //clip-path: polygon(95% 0,100% 50%,95% 100%,0 100%,0 50%,0 0)
+  &__icon
+    font-size: 2.8rem
+  &__text
+    font-size: 1.8rem
   &__link
     position: relative
     background-color: $accent-color
@@ -36,6 +38,21 @@
     padding:
       top: 15px
       bottom: 20px
+  &__inline-blocks
+    font-size: 0
+    .accordion
+      &__text,
+      &__icon
+        display: inline-block
+        vertical-align: top
+      &__text
+        width: 100%
+        padding:
+          left: 35px
+      &__icon
+        width: 35px
+        margin:
+          right: -35px
   +MQ(L)
     &__link
       transition: .2s ease

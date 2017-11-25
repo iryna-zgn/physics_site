@@ -1,0 +1,44 @@
+.hot-links
+  &__list
+    font-size: 0
+    margin:
+      bottom: 50px
+  &__item
+    margin:
+      bottom: 20px
+  &__link
+    display: inline-block
+  &__icon,
+  &__text
+    display: inline-block
+    vertical-align: top
+  &__text-help
+    border-bottom: 1px solid rgba(#000, .3)
+  &__icon
+    font-size: 4rem
+    color: $accent-color
+    width: 55px
+    margin:
+      right: -55px
+  &__text
+    font-size: 1.8rem
+    width: 100%
+    line-height: 1.2
+  &__inline-blocks
+    display: inline-block
+    .hot-links
+      &__text
+        font-size: 2.2rem
+        padding:
+          left: 55px
+  +MQ(L)
+    &__link,
+    &__text-help
+      transition: .2s linear
+      &:hover
+        .hot-links
+          &__text,
+          &__icon
+            color: $accent-color-hover
+          &__text-help
+            border-bottom-color: transparent

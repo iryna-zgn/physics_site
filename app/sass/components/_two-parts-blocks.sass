@@ -4,6 +4,9 @@
       bottom: 40px
   &__inner
     max-width: 700px
+  &__var-part
+    .card-list__item
+      width: 100%
   +MQ(M)
     font-size: 0
     &__const-part,
@@ -24,3 +27,11 @@
         left: 250px
     &__inner
       padding: 0 20px
+  +MQ(EXM)
+    &__var-part
+      .card-list__item
+        width: 50%
+  +MQ(EXL)
+    &__var-part
+      .card-list__item
+        width: 33.3333%

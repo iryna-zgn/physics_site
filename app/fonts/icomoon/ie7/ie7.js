@@ -13,6 +13,18 @@
 		el.innerHTML = '<span style="font-family: \'icomoon\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'icon-businessman2': '&#xe91c;',
+		'icon-business-meeting': '&#xe919;',
+		'icon-earth': '&#xe91a;',
+		'icon-person-check': '&#xe91b;',
+		'icon-statistics': '&#xe91d;',
+		'icon-personal-mail': '&#xe91e;',
+		'icon-edit-document': '&#xe91f;',
+		'icon-document-3': '&#xe920;',
+		'icon-demostration': '&#xe921;',
+		'icon-curriculum': '&#xe922;',
+		'icon-curriculum-1': '&#xe923;',
+		'icon-bar-chart': '&#xe924;',
 		'icon-work': '&#xe912;',
 		'icon-document': '&#xe913;',
 		'icon-question': '&#xe914;',
