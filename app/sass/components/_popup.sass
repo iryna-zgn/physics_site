@@ -26,6 +26,19 @@
       right: -60px
       top: 40px
 
+.mfp-inline-holder
+  .mfp-close
+    right: 10px
+    top: 10px
+    &:before
+      color: #000
+  +MQ(L)
+    .mfp-close
+      top: 0
+      right: -60px
+      &:before
+        color: #fff
+
 .mfp-counter
   display: none
 
@@ -43,3 +56,11 @@
     color: #fff
   &-left
     transform: rotate(180deg)
+
+.popup-inline
+  background: #fff
+  padding: 20px 30px
+  text-align: left
+  max-width: 800px
+  margin: 40px auto
+  position: relative

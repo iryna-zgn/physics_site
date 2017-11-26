@@ -91,6 +91,17 @@ $(function() {
         }
     });
 
+    //inline popup
+    $('.popup-inline-link').magnificPopup({
+        type: 'inline',
+        fixedContentPos: true,
+        fixedBgPos: true,
+        overflowY: 'auto',
+        closeBtnInside: true,
+        preloader: false,
+        midClick: true
+    });
+
     // grid
     $grid.masonry({
         itemSelector: gridItem,
