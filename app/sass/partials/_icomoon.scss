@@ -24,14 +24,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-vacancy {
+  &:before {
+    content: $icon-vacancy;
+  }
+}
 .icon-businessman2 {
   &:before {
     content: $icon-businessman2;
-  }
-}
-.icon-business-meeting {
-  &:before {
-    content: $icon-business-meeting;
   }
 }
 .icon-earth {

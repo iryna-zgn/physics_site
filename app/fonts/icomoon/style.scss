@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('#{$icomoon-font-path}/icomoon.eot?uienfh');
-  src:  url('#{$icomoon-font-path}/icomoon.eot?uienfh#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/icomoon.ttf?uienfh') format('truetype'),
-    url('#{$icomoon-font-path}/icomoon.woff?uienfh') format('woff'),
-    url('#{$icomoon-font-path}/icomoon.svg?uienfh#icomoon') format('svg');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?eqt91b');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?eqt91b#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?eqt91b') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?eqt91b') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?eqt91b#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,14 +26,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-vacancy {
+  &:before {
+    content: $icon-vacancy;
+  }
+}
 .icon-businessman2 {
   &:before {
     content: $icon-businessman2;
-  }
-}
-.icon-business-meeting {
-  &:before {
-    content: $icon-business-meeting;
   }
 }
 .icon-earth {

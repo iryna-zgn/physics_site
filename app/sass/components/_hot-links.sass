@@ -1,6 +1,5 @@
 .hot-links
   &__list
-    font-size: 0
     margin:
       bottom: 50px
   &__item
@@ -26,11 +25,33 @@
     line-height: 1.2
   &__inline-blocks
     display: inline-block
+    font-size: 0
     .hot-links
       &__text
         font-size: 2.2rem
         padding:
           left: 55px
+  &__accent-block
+    display: inline-block
+    padding: 20px 25px
+    background-color: $accent-color
+    color: #fff
+    width: auto
+    .hot-links
+      &__icon
+        color: inherit
+        font-size: 5rem
+        width: 65px
+        margin:
+          right: -65px
+      &__icon,
+      &__text
+        vertical-align: middle
+      &__text
+        padding:
+          left: 65px
+      &__text-help
+        border-bottom: none
   +MQ(L)
     &__link,
     &__text-help
@@ -42,3 +63,11 @@
             color: $accent-color-hover
           &__text-help
             border-bottom-color: transparent
+    &__accent-block
+      transition: .2s ease
+      &:hover
+        background-color: $accent-color-hover
+        .hot-links
+          &__text,
+          &__icon
+            color: #fff
