@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+    <title>Фізичні науки</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="app/icons/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="app/icons/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="app/icons/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="app/icons/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="app/icons/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="app/icons/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="app/icons/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="app/icons/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="app/icons/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="app/icons/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="app/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="app/icons/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="app/icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="app/icons/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="copyright" content="(c)">
+    <meta http-equiv="Reply-to" content="mail@yandex.ru">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+    <meta name="HandheldFriendly" content="True">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="application-name" content="Title">
+    <meta name="msapplication-tooltip" content="Description">
+    <meta name="msapplication-window" content="width=400;height=300">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="msthemecompatible" content="no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="app/css/common.min.css">
+</head>
+
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="main-logo">
+                <a href="#" class="main-logo__link">
+                    <img src="app/icons/logo.jpg" class="main-logo__img" alt="">
+                </a>
+            </div>
+            <nav class="main-nav hide-only-mobile">
+                <ul class="main-nav__links">
+                    <li class="main-nav__item">
+                        <a href="#" class="main-nav__link">КАФЕДРИ</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#" class="main-nav__link">АБІТУРІЄНТУ</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#" class="main-nav__link">СТУДЕНТУ</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#" class="main-nav__link">НАВЧАННЯ</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#" class="main-nav__link">НАУКА</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#" class="main-nav__link">МЕДІА</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#" class="main-nav__link">ЗАПИТАННЯ</a>
+                    </li>
+                </ul>
+                <ul class="categories-links">
+                    <li class="categories-links__item categories-links__item--group">
+                        <a href="#" class="categories-links__link">КАФЕДРИ</a>
+                        <a href="#" class="categories-links__arrow-link">
+                            <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                        </a>
+                        <ul class="subcategories-links">
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">ЕФтаІВТ</a>
+                                <ul class="subcategories-links--sublevel">
+                                    <li class="subcategories-links__item">
+                                        <a href="#" class="subcategories-links__link">Історія кафедри</a>
+                                    </li>
+                                    <li class="subcategories-links__item">
+                                        <a href="#" class="subcategories-links__link">Лабораторії</a>
+                                    </li>
+                                    <li class="subcategories-links__item">
+                                        <a href="#" class="subcategories-links__link">Викладачі</a>
+                                    </li>
+                                    <li class="subcategories-links__item">
+                                        <a href="#" class="subcategories-links__link">Напрями наукових досліджень</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">ТМФ</a>
+                                <ul class="subcategories-links--sublevel">
+                                    <li class="subcategories-links__item">
+                                        <a href="#" class="subcategories-links__link">Історія кафедри</a>
+                                    </li>
+                                    <li class="subcategories-links__item">
+                                        <a href="#" class="subcategories-links__link">Викладачі</a>
+                                    </li>
+                                    <li class="subcategories-links__item">
+                                        <a href="#" class="subcategories-links__link">Напрями наукових досліджень</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Концепція розвитку</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="categories-links__item categories-links__item--group">
+                        <a href="#" class="categories-links__link">АБІТУРІЄНТУ</a>
+                        <a href="#" class="categories-links__arrow-link">
+                            <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                        </a>
+                        <ul class="subcategories-links">
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Вступ</a>
+                                <ul class="subcategories-links--sublevel">
+                                    <li class="subcategories-links__item">
+                                        <a href="#" class="subcategories-links__link">Вступ на 1-ий курс (за сертифікатами ЗНО)</a>
+                                    </li>
+                                    <li class="subcategories-links__item">
+                                        <a href="#" class="subcategories-links__link">Вступ на 1-ий курс(за дипломом молодшого спеціаліста)</a>
+                                    </li>
+                                    <li class="subcategories-links__item">
+                                        <a href="#" class="subcategories-links__link">Вступ на 5-ий курс (за дипломом бакалавр)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Офіційні документи</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Напрями підготовки</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Працевлаштування</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Наші випускники</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="categories-links__item categories-links__item--group">
+                        <a href="#" class="categories-links__link">СТУДЕНТУ</a>
+                        <a href="#" class="categories-links__arrow-link">
+                            <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                        </a>
+                        <ul class="subcategories-links">
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Розклад</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Бази практик</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Кращі студенти</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">
+                                    Студентське дозвілля</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">
+                                    Офіційні документи</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="categories-links__item categories-links__item--group">
+                        <a href="#" class="categories-links__link">НАВЧАННЯ</a>
+                        <a href="#" class="categories-links__arrow-link">
+                            <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                        </a>
+                        <ul class="subcategories-links">
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Напрями підготовки і спеціальності</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Програма подвійного диплому</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Навчальні курси</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Методичне забезпечення</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="categories-links__item categories-links__item--group">
+                        <a href="#" class="categories-links__link">НАУКА</a>
+                        <a href="#" class="categories-links__arrow-link">
+                            <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                        </a>
+                        <ul class="subcategories-links">
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Аспірантура</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Напрями досліджень</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Наукове співробітництво</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Наукові конференції України</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Публікації</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Нагороди</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Відомі науковці</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="categories-links__item categories-links__item--group">
+                        <a href="#" class="categories-links__link">МЕДІА</a>
+                        <a href="#" class="categories-links__arrow-link">
+                            <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                        </a>
+                        <ul class="subcategories-links">
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Фото</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Презентації</a>
+                            </li>
+                            <li class="subcategories-links__item">
+                                <a href="#" class="subcategories-links__link">Відео</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger show-only-mobile">
+                <div class="burger__bit-1"></div>
+                <div class="burger__bit-2"></div>
+                <div class="burger__bit-3"></div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="two-parts-block">
+                <div class="hide-for-mobile two-parts-block__const-part">
+
+                    <ul class="hide-for-mobile categories-links">
+                        <li class="categories-links__item categories-links__item--group">
+                            <a href="#" class="categories-links__link">КАФЕДРИ</a>
+                            <a href="#" class="categories-links__arrow-link">
+                                <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                            </a>
+                            <ul class="subcategories-links">
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">ЕФтаІВТ</a>
+                                    <ul class="subcategories-links--sublevel">
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Історія кафедри</a>
+                                        </li>
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Лабораторії</a>
+                                        </li>
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Викладачі</a>
+                                        </li>
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Напрями наукових досліджень</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">ТМФ</a>
+                                    <ul class="subcategories-links--sublevel">
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Історія кафедри</a>
+                                        </li>
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Викладачі</a>
+                                        </li>
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Напрями наукових досліджень</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Концепція розвитку</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="categories-links__item categories-links__item--group">
+                            <a href="#" class="categories-links__link">АБІТУРІЄНТУ</a>
+                            <a href="#" class="categories-links__arrow-link">
+                                <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                            </a>
+                            <ul class="subcategories-links">
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Вступ</a>
+                                    <ul class="subcategories-links--sublevel">
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Вступ на 1-ий курс (за сертифікатами ЗНО)</a>
+                                        </li>
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Вступ на 1-ий курс(за дипломом молодшого спеціаліста)</a>
+                                        </li>
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Вступ на 5-ий курс (за дипломом бакалавр)</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Офіційні документи</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Напрями підготовки</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Працевлаштування</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Наші випускники</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="categories-links__item categories-links__item--group">
+                            <a href="#" class="categories-links__link">СТУДЕНТУ</a>
+                            <a href="#" class="categories-links__arrow-link">
+                                <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                            </a>
+                            <ul class="subcategories-links">
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Розклад</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Бази практик</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Кращі студенти</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">
+                                        Студентське дозвілля</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">
+                                        Офіційні документи</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="categories-links__item categories-links__item--group">
+                            <a href="#" class="categories-links__link">НАВЧАННЯ</a>
+                            <a href="#" class="categories-links__arrow-link">
+                                <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                            </a>
+                            <ul class="subcategories-links">
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Напрями підготовки і спеціальності</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Програма подвійного диплому</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Навчальні курси</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Методичне забезпечення</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="categories-links__item categories-links__item--group">
+                            <a href="#" class="categories-links__link">НАУКА</a>
+                            <a href="#" class="categories-links__arrow-link">
+                                <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                            </a>
+                            <ul class="subcategories-links">
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Аспірантура</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Напрями досліджень</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Наукове співробітництво</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Наукові конференції України</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Публікації</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Нагороди</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Відомі науковці</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="categories-links__item categories-links__item--group">
+                            <a href="#" class="categories-links__link">МЕДІА</a>
+                            <a href="#" class="categories-links__arrow-link">
+                                <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                            </a>
+                            <ul class="subcategories-links">
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Фото</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Презентації</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Відео</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="two-parts-block__var-part">
+                    <h1 class="page-title">Програма <br>
+                        спільно Україно-Польського проекту <br>
+                        «Подвійний дилом» </h1>
+                    <div class="double-groups">
+                        <div class="double-group">
+                            <div class="text-node">
+                                <p>
+                                    Програма «Подвійний диплом» зі спеціальностей «Фізика та астрономія», «Прикладна фізика та наноматеріали», «Середня освіта (Фізика)» реалізовується у рамках угоди про співпрацю між Східноєвропейським національним університетом імені Лесі Українки (СНУ) та Академією імені Яна Длугоша в Ченстохові (AJD).
+                                </p>
+                                <div class="single-img">
+                                    <img src="app/images/podvijnyj_dyplom/img-1.jpg" alt="">
+                                </div>
+                                <p>У рамках програми <strong>«Подвійний диплом»:</strong></p>
+                                <ul class="text-list">
+                                    <li class="text-list__item">
+                                        <span class="text-list__help">паралельне і безоплатне навчання в СНУ й AJD;</span>
+                                    </li>
+                                    <li class="text-list__item">
+                                        <span class="text-list__help">проживання у гуртожитках європейського рівня;</span>
+                                    </li>
+                                    <li class="text-list__item">
+                                        <span class="text-list__help">навчання за узгодженими навчальними планами;</span>
+                                    </li>
+                                    <li class="text-list__item">
+                                        <span class="text-list__help">розширення можливостей участі у програмі «Еразмус+»;</span>
+                                    </li>
+                                    <li class="text-list__item">
+                                        <span class="text-list__help">після завершення навчання отримують диплом європейського зразка СНУ й АJD.</span>
+                                    </li>
+                                </ul>
+                                <p>Учасниками програми можуть стати студенти 2–5 курсів спеціальностей «Фізика та астрономія», «Прикладна фізика та наноматеріали» і «Середня освіта (Фізика)» у СНУ імені Лесі Українки. </p>
+                                <p>
+                                    За детальною інформацією звертатися – факультет ІСФМ, кафедра ЕФтаІВТ, доцент кафедри Мирончук Галина Леонідівна.
+                                    <br>
+                                    <strong>тел.</strong> <a href="tel:+38(0332)249211">+38(0332)249211</a>
+                                    <br>
+                                    <strong>ел.пошта</strong> <a href="mailto:myronchuk.halyna@eenu.edu.ua">myronchuk.halyna@eenu.edu.ua</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="double-group">
+                            <ul class="hot-links__list">
+                                <li class="hot-links__item">
+                                    <a href="#member-of-program" class="popup-inline-link hot-links__link">
+                                        <span class="hot-links__inline-blocks">
+                                            <span class="hot-links__icon icon-group"></span>
+                                            <span class="hot-links__text">
+                                                <span class="hot-links__text-help">
+                                                    Як стати учасником програми
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="hot-links__item">
+                                    <a href="#terms-of-study" class="popup-inline-link hot-links__link">
+                                            <span class="hot-links__inline-blocks">
+                                                <span class="hot-links__icon icon-calendar"></span>
+                                                <span class="hot-links__text">
+
+                                                    <span class="hot-links__text-help">
+                                                        Терміни навчання
+                                                    </span>
+                                                </span>
+                                            </span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <div class="accordion" id="document-accordion-3" role="tablist">
+                                <div class="accordion__card">
+                                    <div class="accordion__card-header" role="tab" id="1-doc-heading-acc-3">
+                                        <a class="accordion__link" data-toggle="collapse" href="#1-doc-acc-3" aria-expanded="true" aria-controls="1-doc-acc-3">
+                                            <span class="accordion__inline-blocks">
+                                                <span class="accordion__icon icon-document-1"></span>
+                                            <span class="accordion__text">Навчальний план</span>
+                                            </span>
+                                        </a>
+                                    </div>
+
+                                    <div id="1-doc-acc-3" class="accordion__content collapse show" role="tabpanel" aria-labelledby="1-doc-heading-acc-3" data-parent="#document-accordion-3">
+                                        <div class="accordion__card-body">
+
+                                            <ul class="download-list">
+                                                <li class="download-list__item">
+                                                    <a href="http://remed.ua/upload/files/pdf.pdf" download class="download-list__link">Document 1 Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<footer class="footer">
+    <div class="container">
+
+        <div class="footer-col__wrapper">
+            <div class="footer-col contacts-footer">
+                <div class="contacts-footer__col">
+                    Контакти
+                </div>
+                <div class="contacts-footer__col">
+                    <div class="contacts-footer__line">
+                        <a href="tel:+380332249167" class="contacts-footer__phone">(033) 224-91-67</a>
+                    </div>
+                    <div class="contacts-footer__line">
+                        <a href="mailto:Fedosov.Serhiy@eenu.edu.ua " class="contacts-footer__email">Fedosov.Serhiy@eenu.edu.ua </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col social-list-block">
+                <div class="social-list-caption">Приєднуйтесь до нас!</div>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a href="#" class="social-list__link">
+                            <span class=" social-list__icon icon-fb"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col copyright">
+                © 2017 Фізичні науки, СНУ ім. Лесі Українки
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<div id="member-of-program" class="popup-inline mfp-hide">
+    <div class="popup-title">Як стати учасником програми</div>
+    <p>Щоб потрапити до програми «Подвійний диплом», Вам необхідно звернутися до доцента кафедри експериментальної фізики та інформаційно-вимірювальних технологій, факультету ІСФМ <strong>Мирончук Галина Леонідівна (каб. 419 курпус С)</strong> для визначення найоптимальнішого варіанту Вашої участі у програмі.</p>
+    <p>Комплект документів для участі у програмі «Подвійний диплом»:</p>
+    <ul class="text-list">
+        <li class="text-list__item">
+            <span class="text-list__help">заява;</span>
+        </li>
+        <li class="text-list__item">
+            <span class="text-list__help">анкета;</span>
+        </li>
+        <li class="text-list__item">
+            <span class="text-list__help">довідка, що підтверджує навчання в університеті;</span>
+        </li>
+        <li class="text-list__item">
+            <span class="text-list__help">закордонний паспорт;</span>
+        </li>
+        <li class="text-list__item">
+            <span class="text-list__help">ідентифікаційний код;</span>
+        </li>
+        <li class="text-list__item">
+            <span class="text-list__help">документ про освіту;</span>
+        </li>
+        <li class="text-list__item">
+            <span class="text-list__help">сертифікат знання польської мови, рівня А2;</span>
+        </li>
+        <li class="text-list__item">
+            <span class="text-list__help">медична довідка;</span>
+        </li>
+        <li class="text-list__item">
+            <span class="text-list__help">фотокартки.</span>
+        </li>
+    </ul>
+    <p>Під час першого виїзду студенти одержують усі документи польського студента (студентський квиток; довідку про те, що він є студентом WSL; довідку про предмети, з яких проводились заняття протягом сесії).</p>
+    <p>Оформлення документів складається з 3 етапів:</p>
+    <ul class="text-list">
+        <li class="text-list__item">
+            <span class="text-list__help">комплектування навчальної справи – збір усіх потрібних документів;</span>
+        </li>
+        <li class="text-list__item">
+            <span class="text-list__help">переклад документів польською мовою та їх нострифікація польським нотаріусом;</span>
+        </li>
+        <li class="text-list__item">
+            <span class="text-list__help">оформлення студентських документів (WSL).</span>
+        </li>
+    </ul>
+    <p>В разі своєчасної подачі усіх документів цей процес займає 1,5-2 місяці, але, в будь-якому випадку, документи студент одержує особисто під час відвідання WSL.</p>
+    <p>При Академії імені Яна Длугоша організовуються <strong>курси польської мови</strong> для учасників програми за пільговим тарифом <strong>(в основному безкоштовно)</strong> для студентів Східноєвропейського національного університету імені Лесі Українки – учасників програми «Подвійного диплома».</p>
+</div>
+
+<div id="terms-of-study" class="popup-inline mfp-hide">
+    <div class="popup-title">Терміни навчання</div>
+    <p>Тривалість навчання за програмою <strong>ліцензіату</strong> (аналог нашого бакалаврату) у Польщі триває <strong>3 роки, магістратура – 2 роки</strong>.</p>
+    <p>Обов’язковим мінімумом є дві поїздки на рік (осінь та весна). <strong>Термін перебування 5 тижнів.</strong> Сесія триває останній робочий тиждень.</p>
+</div>
+
+<link rel="stylesheet" href="app/css/main.min.css">
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkRRaRRUoDEOHHIj7EwA_wzBOQ6yiuMqE"></script>
+<script src="app/js/scripts.min.js"></script>
+
+</body>
+</html>

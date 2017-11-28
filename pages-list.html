@@ -66,6 +66,10 @@
         .page-list .done span {
             color: #002147;
         }
+
+        .page-subtitle__pages-list {
+            margin: 30px 0 10px;
+        }
     </style>
 </head>
 
@@ -112,20 +116,208 @@
     </header>
     <section>
         <div class="container">
-            <ul class="page-list">
-                <li class="done"><a href="/physics_site" target="_blank">1. <span>Головна сторінка</span></a></li>
-                <li class="done"><a href="/physics_site/departments.html" target="_blank">2. <span>Кафедри</span></a></li>
-                <li class="done"><a href="/physics_site/person.html" target="_blank">3. <span>Сторінка викладача</span></a></li>
-                <li class="done"><a href="/physics_site/people.html" target="_blank">4. <span>Викладачі</span></a></li>
-                <li class="done"><a href="/physics_site/laboratory.html" target="_blank">5. <span>Сторінка лабораторії</span></a></li>
-                <li class="done"><a href="/physics_site/laboratories.html" target="_blank">6. <span>Список лабораторій</span></a></li>
-                <li class="done"><a href="/physics_site/documents.html" target="_blank">7. <span>Офіційні документи</span></a></li>
-                <li class="done"><a href="/physics_site/specialities.html" target="_blank">8. <span>Спеціалізації</span></a></li>
-                <li class="done"><a href="/physics_site/abiturientu.html" target="_blank">9. <span>Абітурієнту</span></a></li>
-                <li class="done"><a href="/physics_site/admission.html" target="_blank">10. <span>Вступ</span></a></li>
-                <li class="done"><a href="/physics_site/employment.html" target="_blank">11. <span>Працевлаштування</span></a></li>
-                <li class="done"><a href="/physics_site/contacts.html" target="_blank">12. <span>Контакти</span></a></li>
-            </ul>
+            <div class="two-parts-block">
+                <div class="hide-for-mobile two-parts-block__const-part">
+
+                    <ul class="hide-for-mobile categories-links">
+                        <li class="categories-links__item categories-links__item--group">
+                            <a href="#" class="categories-links__link">КАФЕДРИ</a>
+                            <a href="#" class="categories-links__arrow-link">
+                                <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                            </a>
+                            <ul class="subcategories-links">
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">ЕФтаІВТ</a>
+                                    <ul class="subcategories-links--sublevel">
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Історія кафедри</a>
+                                        </li>
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Лабораторії</a>
+                                        </li>
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Викладачі</a>
+                                        </li>
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Напрями наукових досліджень</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">ТМФ</a>
+                                    <ul class="subcategories-links--sublevel">
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Історія кафедри</a>
+                                        </li>
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Викладачі</a>
+                                        </li>
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Напрями наукових досліджень</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Концепція розвитку</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="categories-links__item categories-links__item--group">
+                            <a href="#" class="categories-links__link">АБІТУРІЄНТУ</a>
+                            <a href="#" class="categories-links__arrow-link">
+                                <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                            </a>
+                            <ul class="subcategories-links">
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Вступ</a>
+                                    <ul class="subcategories-links--sublevel">
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Вступ на 1-ий курс (за сертифікатами ЗНО)</a>
+                                        </li>
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Вступ на 1-ий курс(за дипломом молодшого спеціаліста)</a>
+                                        </li>
+                                        <li class="subcategories-links__item">
+                                            <a href="#" class="subcategories-links__link">Вступ на 5-ий курс (за дипломом бакалавр)</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Офіційні документи</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Напрями підготовки</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Працевлаштування</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Наші випускники</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="categories-links__item categories-links__item--group">
+                            <a href="#" class="categories-links__link">СТУДЕНТУ</a>
+                            <a href="#" class="categories-links__arrow-link">
+                                <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                            </a>
+                            <ul class="subcategories-links">
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Розклад</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Бази практик</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Кращі студенти</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">
+                                        Студентське дозвілля</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">
+                                        Офіційні документи</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="categories-links__item categories-links__item--group">
+                            <a href="#" class="categories-links__link">НАВЧАННЯ</a>
+                            <a href="#" class="categories-links__arrow-link">
+                                <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                            </a>
+                            <ul class="subcategories-links">
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Напрями підготовки і спеціальності</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Програма подвійного диплому</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Навчальні курси</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Методичне забезпечення</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="categories-links__item categories-links__item--group">
+                            <a href="#" class="categories-links__link">НАУКА</a>
+                            <a href="#" class="categories-links__arrow-link">
+                                <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                            </a>
+                            <ul class="subcategories-links">
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Аспірантура</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Напрями досліджень</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Наукове співробітництво</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Наукові конференції України</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Публікації</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Нагороди</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Відомі науковці</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="categories-links__item categories-links__item--group">
+                            <a href="#" class="categories-links__link">МЕДІА</a>
+                            <a href="#" class="categories-links__arrow-link">
+                                <span class="categories-links__arrow-icon icon-arrow-down"></span>
+                            </a>
+                            <ul class="subcategories-links">
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Фото</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Презентації</a>
+                                </li>
+                                <li class="subcategories-links__item">
+                                    <a href="#" class="subcategories-links__link">Відео</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="two-parts-block__var-part">
+                    <h1 class="page-title">Фізичні науки</h1>
+                    <div class="double-groups">
+                        <div class="double-group">
+                            <ul class="page-list">
+                                <li class="done"><a href="/physics_site" target="_blank"> <span>Головна сторінка</span></a></li>
+                                <li class="done"><a href="/physics_site/contacts.html" target="_blank"><span>Контакти</span></a></li>
+                            </ul>
+                            <h2 class="page-subtitle page-subtitle__pages-list">Кафедри</h2>
+                            <ul class="page-list">
+                                <li class="done"><a href="/physics_site/departments.html" target="_blank"><span>Кафедри</span></a></li>
+                                <li class="done"><a href="/physics_site/people.html" target="_blank"><span>Викладачі</span></a></li>
+                                <li class="done"><a href="/physics_site/person.html" target="_blank"><span>Сторінка викладача</span></a></li>
+                                <li class="done"><a href="/physics_site/laboratories.html" target="_blank"><span>Список лабораторій</span></a></li>
+                                <li class="done"><a href="/physics_site/laboratory.html" target="_blank"><span>Сторінка лабораторії</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="double-group">
+                            <h2 class="page-subtitle page-subtitle__pages-list">Абітурієнту</h2>
+                            <ul class="page-list"><li class="done"><a href="/physics_site/abiturientu.html" target="_blank"><span>Абітурієнту</span></a></li>
+                                <li class="done"><a href="/physics_site/admission.html" target="_blank"><span>Вступ</span></a></li>
+                                <li class="done"><a href="/physics_site/documents.html" target="_blank"><span>Офіційні документи</span></a></li><li class="done"><a href="/physics_site/specialities.html" target="_blank"><span>Спеціальності</span></a></li>
+                                <li class="done"><a href="/physics_site/programa_podvijnogo_dyplomu.html" target="_blank"><span>Програма подвійного диплому</span></a></li>
+                                <li class="done"><a href="/physics_site/employment.html" target="_blank"><span>Працевлаштування</span></a></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </section>
 </div>

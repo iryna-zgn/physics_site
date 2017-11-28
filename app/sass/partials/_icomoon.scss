@@ -24,188 +24,120 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-vacancy {
-  &:before {
-    content: $icon-vacancy;
-  }
+.icon-calendar:before {
+  content: "\e925";
 }
-.icon-businessman2 {
-  &:before {
-    content: $icon-businessman2;
-  }
+.icon-group:before {
+  content: "\e926";
 }
-.icon-earth {
-  &:before {
-    content: $icon-earth;
-  }
+.icon-vacancy:before {
+  content: "\e919";
 }
-.icon-person-check {
-  &:before {
-    content: $icon-person-check;
-  }
+.icon-businessman2:before {
+  content: "\e91c";
 }
-.icon-statistics {
-  &:before {
-    content: $icon-statistics;
-  }
+.icon-earth:before {
+  content: "\e91a";
 }
-.icon-personal-mail {
-  &:before {
-    content: $icon-personal-mail;
-  }
+.icon-person-check:before {
+  content: "\e91b";
 }
-.icon-edit-document {
-  &:before {
-    content: $icon-edit-document;
-  }
+.icon-statistics:before {
+  content: "\e91d";
 }
-.icon-document-3 {
-  &:before {
-    content: $icon-document-3;
-  }
+.icon-personal-mail:before {
+  content: "\e91e";
 }
-.icon-demostration {
-  &:before {
-    content: $icon-demostration;
-  }
+.icon-edit-document:before {
+  content: "\e91f";
 }
-.icon-curriculum {
-  &:before {
-    content: $icon-curriculum;
-  }
+.icon-document-3:before {
+  content: "\e920";
 }
-.icon-curriculum-1 {
-  &:before {
-    content: $icon-curriculum-1;
-  }
+.icon-demostration:before {
+  content: "\e921";
 }
-.icon-bar-chart {
-  &:before {
-    content: $icon-bar-chart;
-  }
+.icon-curriculum:before {
+  content: "\e922";
 }
-.icon-work {
-  &:before {
-    content: $icon-work;
-  }
+.icon-curriculum-1:before {
+  content: "\e923";
 }
-.icon-document {
-  &:before {
-    content: $icon-document;
-  }
+.icon-bar-chart:before {
+  content: "\e924";
 }
-.icon-question {
-  &:before {
-    content: $icon-question;
-  }
+.icon-work:before {
+  content: "\e912";
 }
-.icon-graduate {
-  &:before {
-    content: $icon-graduate;
-  }
+.icon-document:before {
+  content: "\e913";
 }
-.icon-document-1 {
-  &:before {
-    content: $icon-document-1;
-  }
+.icon-question:before {
+  content: "\e914";
 }
-.icon-businessman {
-  &:before {
-    content: $icon-businessman;
-  }
+.icon-graduate:before {
+  content: "\e915";
 }
-.icon-businessman-1 {
-  &:before {
-    content: $icon-businessman-1;
-  }
+.icon-document-1:before {
+  content: "\e916";
 }
-.icon-envelope {
-  &:before {
-    content: $icon-envelope;
-  }
+.icon-businessman:before {
+  content: "\e917";
 }
-.icon-phone {
-  &:before {
-    content: $icon-phone;
-  }
+.icon-businessman-1:before {
+  content: "\e918";
 }
-.icon-close {
-  &:before {
-    content: $icon-close;
-  }
+.icon-envelope:before {
+  content: "\e907";
 }
-.icon-download {
-  &:before {
-    content: $icon-download;
-  }
+.icon-phone:before {
+  content: "\e908";
 }
-.icon-instagram {
-  &:before {
-    content: $icon-instagram;
-  }
+.icon-close:before {
+  content: "\e904";
 }
-.icon-right-arrow {
-  &:before {
-    content: $icon-right-arrow;
-  }
+.icon-download:before {
+  content: "\e905";
 }
-.icon-arrow-down {
-  &:before {
-    content: $icon-arrow-down;
-  }
+.icon-instagram:before {
+  content: "\e906";
 }
-.icon-fb {
-  &:before {
-    content: $icon-fb;
-  }
+.icon-right-arrow:before {
+  content: "\e903";
 }
-.icon-home {
-  &:before {
-    content: $icon-home;
-  }
+.icon-arrow-down:before {
+  content: "\e909";
 }
-.icon-search {
-  &:before {
-    content: $icon-search;
-  }
+.icon-fb:before {
+  content: "\e900";
 }
-.icon-atom {
-  &:before {
-    content: $icon-atom;
-  }
+.icon-home:before {
+  content: "\e901";
 }
-.icon-electric {
-  &:before {
-    content: $icon-electric;
-  }
+.icon-search:before {
+  content: "\e902";
 }
-.icon-gravity {
-  &:before {
-    content: $icon-gravity;
-  }
+.icon-atom:before {
+  content: "\e90a";
 }
-.icon-mechanics {
-  &:before {
-    content: $icon-mechanics;
-  }
+.icon-electric:before {
+  content: "\e90b";
 }
-.icon-molecule {
-  &:before {
-    content: $icon-molecule;
-  }
+.icon-gravity:before {
+  content: "\e90c";
 }
-.icon-momentum {
-  &:before {
-    content: $icon-momentum;
-  }
+.icon-mechanics:before {
+  content: "\e90d";
 }
-.icon-momentum1 {
-  &:before {
-    content: $icon-momentum1;
-  }
+.icon-molecule:before {
+  content: "\e90e";
 }
-.icon-optics {
-  &:before {
-    content: $icon-optics;
-  }
+.icon-momentum:before {
+  content: "\e90f";
+}
+.icon-momentum1:before {
+  content: "\e910";
+}
+.icon-optics:before {
+  content: "\e911";
 }
