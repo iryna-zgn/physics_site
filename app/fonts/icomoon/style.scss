@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('#{$icomoon-font-path}/icomoon.eot?2mo391');
-  src:  url('#{$icomoon-font-path}/icomoon.eot?2mo391#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/icomoon.ttf?2mo391') format('truetype'),
-    url('#{$icomoon-font-path}/icomoon.woff?2mo391') format('woff'),
-    url('#{$icomoon-font-path}/icomoon.svg?2mo391#icomoon') format('svg');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?i360yj');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?i360yj#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?i360yj') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?i360yj') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?i360yj#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,61 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-magnet2 {
+  &:before {
+    content: $icon-magnet2;
+  }
+}
+.icon-electric2 {
+  &:before {
+    content: $icon-electric2;
+  }
+}
+.icon-atom2 {
+  &:before {
+    content: $icon-atom2;
+  }
+}
+.icon-diode {
+  &:before {
+    content: $icon-diode;
+  }
+}
+.icon-radioactivity {
+  &:before {
+    content: $icon-radioactivity;
+  }
+}
+.icon-hexagon {
+  &:before {
+    content: $icon-hexagon;
+  }
+}
+.icon-magnet {
+  &:before {
+    content: $icon-magnet;
+  }
+}
+.icon-electronics {
+  &:before {
+    content: $icon-electronics;
+  }
+}
+.icon-molecule {
+  &:before {
+    content: $icon-molecule;
+  }
+}
+.icon-electronics-1 {
+  &:before {
+    content: $icon-electronics-1;
+  }
+}
+.icon-molecule-1 {
+  &:before {
+    content: $icon-molecule-1;
+  }
+}
 .icon-calendar {
   &:before {
     content: $icon-calendar;
@@ -199,16 +254,6 @@
 .icon-mechanics {
   &:before {
     content: $icon-mechanics;
-  }
-}
-.icon-molecule {
-  &:before {
-    content: $icon-molecule;
-  }
-}
-.icon-momentum {
-  &:before {
-    content: $icon-momentum;
   }
 }
 .icon-momentum1 {

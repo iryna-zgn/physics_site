@@ -13,6 +13,17 @@
 		el.innerHTML = '<span style="font-family: \'icomoon\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'icon-magnet2': '&#xe92d;',
+		'icon-electric2': '&#xe92e;',
+		'icon-atom2': '&#xe92f;',
+		'icon-diode': '&#xe92c;',
+		'icon-radioactivity': '&#xe90e;',
+		'icon-hexagon': '&#xe90f;',
+		'icon-magnet': '&#xe927;',
+		'icon-electronics': '&#xe928;',
+		'icon-molecule': '&#xe929;',
+		'icon-electronics-1': '&#xe92a;',
+		'icon-molecule-1': '&#xe92b;',
 		'icon-calendar': '&#xe925;',
 		'icon-group': '&#xe926;',
 		'icon-vacancy': '&#xe919;',
@@ -48,8 +59,6 @@
 		'icon-electric': '&#xe90b;',
 		'icon-gravity': '&#xe90c;',
 		'icon-mechanics': '&#xe90d;',
-		'icon-molecule': '&#xe90e;',
-		'icon-momentum': '&#xe90f;',
 		'icon-momentum1': '&#xe910;',
 		'icon-optics': '&#xe911;',
 		'0': 0
