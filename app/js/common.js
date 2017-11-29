@@ -102,12 +102,6 @@ $(function() {
         midClick: true
     });
 
-    // grid
-    $grid.masonry({
-        itemSelector: gridItem,
-        columnWidth: gridItem
-    });
-
     // accordion link active class
     $accLink.on('click', function () {
        $(this).toggleClass('active');
@@ -137,6 +131,13 @@ $(function() {
     $window.on('load', function () {
         console.log('load');
 
+        // grid
+        $grid.masonry({
+            itemSelector: gridItem,
+            columnWidth: gridItem
+        });
+
+        // map
         var mapBlock = document.getElementById('map');
         var LAT = Number(mapBlock.getAttribute('data-lat'));
         var LNG = Number(mapBlock.getAttribute('data-lng'));
