@@ -132,10 +132,10 @@ $(function() {
         console.log('load');
 
         // grid
-        $grid.masonry({
-            itemSelector: gridItem,
-            columnWidth: gridItem
-        });
+        // $grid.masonry({
+        //     itemSelector: gridItem,
+        //     columnWidth: gridItem
+        // });
 
         // map
         var mapBlock = document.getElementById('map');
