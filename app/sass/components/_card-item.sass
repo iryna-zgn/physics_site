@@ -1,6 +1,7 @@
 .card-item
   font-size: 1.6rem
   display: inline-block
+  width: 100%
   &__title
     font-size: 3.6rem
     font-family: $decorate-font
@@ -113,8 +114,9 @@
         &:hover
           background-color: $arrow-color-3-hover
     &__img-link
-      background-color: #000
+      background-color: rgba(#000, .2)
       position: relative
+      min-height: 200px
       &:before
         content: ""
         display: block
