@@ -33,15 +33,6 @@
     &:not(:last-child)
       padding:
         bottom: 80px
-    &:nth-child(odd)
-      .about-block
-        direction: rtl
-        .about-block__img
-          text-align: left
-        .about-block__text
-          padding:
-            left: 0
-            right: 35px
     &--no-padding
       padding:
         bottom: 0
@@ -75,3 +66,21 @@
   display: block
   +MQ(M)
     display: none
+
+.about-section-wrapper
+  &:nth-child(odd)
+    .about-block
+      direction: rtl
+      .about-block__img
+        text-align: left
+      .about-block__text
+        padding:
+          left: 0
+          right: 35px
+  &:not(:last-child)
+    padding:
+      bottom: 30px
+  +MQ(L)
+  &:not(:last-child)
+    padding:
+      bottom: 80px
